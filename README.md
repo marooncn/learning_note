@@ -1,1 +1,1 @@
-This repository keeps my learning notes about proramming.
+This repository keeps my learning notes about programming.
