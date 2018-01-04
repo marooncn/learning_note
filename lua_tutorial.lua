@@ -25,7 +25,7 @@ create a .lua file and specify the interpreter, such as hello.lua, the content i
 print("Hello World")
 then you can excute the script
 $ ./hello.lua
-3. reference: http://www.lua.org/pil/contents.html
+3 reference: http://www.lua.org/pil/contents.html
               http://www.runoob.com/lua/lua-tutorial.html
 --]]
 -- lua is a dynamic typing language, you don't need to define variable type before you use it.
@@ -33,10 +33,11 @@ a = 10
 print(a)  -- 10
 -- in lua language, all variables are global by default. To create a local variable, use 'local'.
 local a = 5  -- create a local variable, when the block ends, it will be destroyed.
-print(a) -- 10
+print(a)  -- 10
 -- If you don't initianize a variable, its value is nil.
 -- nil is a special variable and it means invalid in some way. In condition expressions, it is as false.
 print(b)  -- nil
+--------------------------------------------Data type---------------------------------------------------
 -- Data types: nil, boolen, number, string, function, userdata, thread, table.
 -- The nil type includes nil itself. You can use 'type' to look up the data type.
 print(type(b)) -- nil
@@ -66,7 +67,7 @@ print(tab1[k]) -- cat
 print(tab1.k)  -- nil , undefied tab1['k']  
 -- when a numeric string invloves in the digital operations, lua will try convert it to number.    
 print("2" + 6) -- 8.0
-for x, y in pairs(tab1) do  
+for x, y in pairs(tab1) do  -- generic for cycle, explained in control flow section
     print(x .. " : " .. y)  -- print the index and elements
 end  
 -- [[ Functions are first-class values in Lua. That means that functions can be stored in variables, passed as 
@@ -97,11 +98,49 @@ function average(...)
    end
    print("总共传入 " .. #arg .. " 个数")
    return result/#arg
-end
-        
-print("平均值为",average(10,5,3,4,5,6))
-        
+end      
+print("平均值为",average(10,5,3,4,5,6))    
 -- The userdata type allows arbitrary C data to be stored in Lua variable
 -- Coroutine a frequently used thread type in Lua.
 -- A coroutine is similar to a thread, but there is only one running at any given time.
 
+--------------------------------------------control flow---------------------------------------------------
+-- if
+if(type(a) ~= number)
+then
+      print('a isn\'t the number type')   -- '\' is necessary to output character '
+else
+      if(a > 0)
+      then
+            print('a is positive')
+      elseif(a < 0)
+      then
+            print('a is negative')
+      else
+            print('a is 0')
+      end
+end
+-- while
+a = 10
+while( a < 20 )
+do
+   print("a 的值为:", a)
+   a = a+1
+end      -- a = 20, different with C which will be 10.
+-- for 
+for a=10,20,1  -- numberic cycle, a = start,end,step
+do    
+    print("a 的值为:", a)
+end
+days = {"Suanday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"}  
+for i,v in ipairs(days)   -- generic cycle, i,v = index,value
+do  
+    print(v) 
+end 
+-- repeat ... until ...
+a = 10
+repeat
+   print("a的值为:", a)
+   a = a + 1
+until( a > 20 )
+-- break usage is the same as C.
