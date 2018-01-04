@@ -8,23 +8,25 @@ $ make install
 Then you can use lua.
 2 Programming
 To use lua to program, there are three approachs:
-1.1> interactive programming using terminal
+2.1> interactive programming using terminal
 $ lua -i
 You will come to interactive programming environment. You can use in-built 'print' function to print the content.
 > print("Hello World")
 Hello World！
-1.2> .lua file
+2.2> .lua file
 create a .lua file, such as hello.lua, the content is:
 print("Hello World")
 then you can excute the file
 $ lua hello.lua
 Hello World！
-1.3> script
+2.3> script
 create a .lua file and specify the interpreter, such as hello.lua, the content is:
 #!/usr/local/bin/lua
 print("Hello World")
 then you can excute the script
 $ ./hello.lua
+3. reference: http://www.lua.org/pil/contents.html
+              http://www.runoob.com/lua/lua-tutorial.html
 --]]
 -- lua is a dynamic typing language, you don't need to define variable type before you use it.
 a = 10
@@ -42,7 +44,6 @@ print(type(b)) -- nil
 -- The number type represents real (double-precision floating-point) numbers. So 'a' is not an integer data.
 print(type(a)  -- number
 print(type(2.2e-6) -- number
--- many number
 n1,n2 = 1,2    --n1=1, n2=2
 n3,n4 = 3,4,5  --n1=3, n2=4
 n5,n6 = 0      --n5=0, n6=nil. Pay attention the difference with other languages.
@@ -68,8 +69,8 @@ print("2" + 6) -- 8.0
 for x, y in pairs(tab1) do  
     print(x .. " : " .. y)  -- print the index and elements
 end  
--- [[ Functions are first-class values in Lua. That means that functions can be stored in variables, 
-passed as arguments to other functions, and returned as results. -- ]]
+-- [[ Functions are first-class values in Lua. That means that functions can be stored in variables, passed as 
+arguments to other functions, and returned as results. -- ]]
 -- a simple example
 function echo(x)  -- you can also use 'echo = function(x)' to create.
     print(x)
@@ -87,3 +88,20 @@ fcn2_copy = fcn2  -- copy as a variable
 print(fcn2_copy(-4, math.abs))  -- 12 , 'math.abs' is an in-built function to get the absolute value. 
 -- For convenience, you can use anonymous function to pass function 
 print(fcn2_copy(-4, function(x) return(math.abs(x)-1) end)) -- 3
+-- Variable Arguments, just use '...' to denote variable arguments, which is similar to C.
+function average(...)
+   result = 0
+   local arg={...}
+   for i,v in ipairs(arg) do
+      result = result + v
+   end
+   print("总共传入 " .. #arg .. " 个数")
+   return result/#arg
+end
+        
+print("平均值为",average(10,5,3,4,5,6))
+        
+-- The userdata type allows arbitrary C data to be stored in Lua variable
+-- Coroutine a frequently used thread type in Lua.
+-- A coroutine is similar to a thread, but there is only one running at any given time.
+
