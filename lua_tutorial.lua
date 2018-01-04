@@ -92,7 +92,8 @@ print(fcn2_copy(-4, function(x) return(math.abs(x)-1) end)) -- 3
 -- Variable Arguments, just use '...' to denote variable arguments, which is similar to C.
 function average(...)
    result = 0
-   local arg={...}
+   local arg={...}  
+      -- local variable has its strength, for example less conflict(be destroyed after block) and faster operation.
    for i,v in ipairs(arg) do
       result = result + v
    end
