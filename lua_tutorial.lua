@@ -93,7 +93,7 @@ print(fcn2_copy(-4, function(x) return(math.abs(x)-1) end)) -- 3
 function average(...)
    result = 0
    local arg={...}  
-      -- local variable has its strength, for example less conflict(be destroyed after block) and faster operation.
+     -- local variable has its strength, for example less conflict(be destroyed after block) and faster operation.
    for i,v in ipairs(arg) do
       result = result + v
    end
@@ -181,9 +181,9 @@ t = io.read("*all")                     -- read the whole file
 
 --------------------------------------------Error Handling ---------------------------------------------------
 -- pcall(protected call)
-pcall(function(i) return 1/i end, 2)    -- true   0.5
-pcall(function(i) return 1/i end, 0)    -- true   inf, so 1/0 is valid in Lua.
-pcall(function(i) return 1/i end, 'a')  -- false	stdin:1: attempt to perform arithmetic on a string value (local 'i')
+pcall(function(i) return 1/i end, 2)   -- true   0.5
+pcall(function(i) return 1/i end, 0)   -- true   inf, so 1/0 is valid in Lua.
+pcall(function(i) return 1/i end, 'a') -- false	stdin:1: attempt to perform arithmetic on a string value (local 'i')
 -- xpcall (receive error handling argument to offer more information)
     -- use debug library including debug.debug and debug.traceback to get extra information and then pass to xpcall
 xpcall(function(i) return 1/i end, function() print(debug.traceback()) end, 'a') 
