@@ -107,6 +107,12 @@ print("平均值为",average(10,5,3,4,5,6))
 
 --------------------------------------------control flow---------------------------------------------------
 -- if
+-- In lua, except flase and lua, other variables are true including 0.
+if(0)
+then
+    print("0 is true")
+end      -- 0 is true
+    
 if(type(a) ~= number)
 then
       print('a isn\'t the number type')   -- '\' is necessary to output character '
@@ -121,6 +127,7 @@ else
             print('a is 0')
       end
 end
+    
 -- while
 a = 10
 while( a < 20 )
@@ -128,6 +135,7 @@ do
    print("a 的值为:", a)
    a = a+1
 end      -- a = 20, different with C which will be 10.
+    
 -- for 
 for a=10,20,1  -- numberic cycle, a = start,end,step
 do    
@@ -138,6 +146,7 @@ for i,v in ipairs(days)   -- generic cycle, i,v = index,value
 do  
     print(v) 
 end 
+    
 -- repeat ... until ...
 a = 10
 repeat
@@ -145,3 +154,37 @@ repeat
    a = a + 1
 until( a > 20 )
 -- break usage is the same as C.
+
+-------------------------------------------- I/O ---------------------------------------------------
+io.write("Hello")  --Hello
+io.write("sin (3) = ", math.sin(3), "\n") -- sin (3) = 0.1411200080598672
+-- 'io.write' is similar to 'print', but they are not the same.
+io.write("hello", "Lua"); io.write("Hi", "\n")  -- helloLuaHi
+print("hello", "Lua"); print("Hi")              -- hello    Lua
+                                                -- Hi
+-- file operation
+-- simple model 
+file = io.open("test.lua", "r+")        -- open test.lua with r+ format, format kinds are same as C.
+io.input(file)                          -- set test.lua as the default input file
+io.write("--  test.lua 文件末尾注释")     -- add content as the last line of test.lua
+print(io.read())                        -- print the first line of test.lua
+io.close(file)                          -- close test.lua
+-- complete model (use the complete model for more control over I/O,)
+file = io.open("test.lua", "r+")        -- open test.lua with r+ format
+file:write("--  test.lua 文件末尾注释")  -- add content as the last line of test.lua
+print(file:read())                     -- print the first line of test.lua
+file:close()                           -- close test.lua
+--[[ special arguments control for the read function
+    "*all"	reads the whole file", "*line"	reads the next line, "*number"	reads a number
+    num reads a string with up to num characters, fox example: ]] --
+t = io.read("*all")                     -- read the whole file
+
+--------------------------------------------Error Handling ---------------------------------------------------
+-- pcall(protected call)
+pcall(function(i) return 1/i end, 2)    -- true   0.5
+pcall(function(i) return 1/i end, 0)    -- true   inf, so 1/0 is valid in Lua.
+pcall(function(i) return 1/i end, 'a')  -- false	stdin:1: attempt to perform arithmetic on a string value (local 'i')
+-- xpcall (receive error handling argument to offer more information)
+    -- use debug library including debug.debug and debug.traceback to get extra information and then pass to xpcall
+xpcall(function(i) return 1/i end, function() print(debug.traceback()) end, 'a') 
+xpcall(function(i) return 1/i end, function(err) print( "ERROR:", err ) end, 'a') 
