@@ -104,7 +104,27 @@ print("平均值为",average(10,5,3,4,5,6))
 -- The userdata type allows arbitrary C data to be stored in Lua variable
 -- Coroutine a frequently used thread type in Lua.
 -- A coroutine is similar to a thread, but there is only one running at any given time.
-
+    
+------------------------------------- Operator & calculation---------------------------------------------
+-- Arithmetic operators: +, -, *, /, ^
+-- Relational operators: ==, ~=, >, <, >=, <=
+-- Logical operators: and, or, not.  Note:It's different with other languages.
+-- other operators: .., # 
+if( 2+3 == 5 and  2^4 >= 2*4  and (not (2 > 3)) ) 
+then
+      print("All right")
+end                        -- All right
+-- math: The Mathematical Library, support the following operation:
+-- trigonometric functions (sin, cos, tan, asin, acos, etc.), 
+-- exponentiation and logarithms (exp, log, log10), 
+-- rounding functions (max, min, plus) a variable pi. 
+-- random data(random)
+math.randomseed(os.time())  -- seed
+for w=0,math.pi,0.1  do
+    theta = math.sin(2*w + math.pi/4) + math.random(0,1)/100
+    print(theta)
+end   
+    
 --------------------------------------------control flow---------------------------------------------------
 -- if
 -- In lua, except flase and lua, other variables are true including 0.
@@ -137,7 +157,7 @@ do
 end      -- a = 20, different with C which will be 10.
     
 -- for 
-for a=10,20,1  -- numberic cycle, a = start,end,step
+for a=10,20,1  -- numberic cycle, a = start,end,step(default=1)
 do    
     print("a 的值为:", a)
 end
@@ -172,9 +192,9 @@ print(io.read())                        -- print the first line of test.lua
 io.close(file)                          -- close test.lua
 -- complete model (use the complete model for more control over I/O,)
 file = io.open("test.lua", "r+")        -- open test.lua with r+ format
-file:write("--  test.lua 文件末尾注释")  -- add content as the last line of test.lua
-print(file:read())                     -- print the first line of test.lua
-file:close()                           -- close test.lua
+file:write("--  test.lua 文件末尾注释")   -- add content as the last line of test.lua
+print(file:read())                      -- print the first line of test.lua
+file:close()                            -- close test.lua
 --[[ special arguments control for the read function
     "*all"	reads the whole file", "*line"	reads the next line, "*number"	reads a number
     num reads a string with up to num characters, fox example: ]] --
