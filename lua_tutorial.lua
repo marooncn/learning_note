@@ -141,6 +141,7 @@ for a=10,20,1  -- numberic cycle, a = start,end,step
 do    
     print("a 的值为:", a)
 end
+    
 days = {"Suanday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"}  
 for i,v in ipairs(days)   -- generic cycle, i,v = index,value
 do  
@@ -180,6 +181,23 @@ file:close()                           -- close test.lua
 t = io.read("*all")                     -- read the whole file
 
 --------------------------------------------Error Handling ---------------------------------------------------
+-- assert and error
+function add(a,b)
+   assert(type(a) == "number", "a is not the number type", error)
+   assert(type(b) == "number", "b is not the number type")
+   return a+b
+end
+    
+function add(a,b)
+    if type(a) ~= "number" or  type(b) ~= "number" then
+        error("number expected", 2)  -- 2 is the level, Level = 2：put out the function calling 'error'
+                                     -- level = 1[default]：put out the location(file name+line number) calling 'error'
+                                     -- level = 0: don't put out the location information
+    else
+        return a+b   
+    end
+end
+
 -- pcall(protected call)
 pcall(function(i) return 1/i end, 2)   -- true   0.5
 pcall(function(i) return 1/i end, 0)   -- true   inf, so 1/0 is valid in Lua.
