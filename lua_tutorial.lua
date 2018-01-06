@@ -26,7 +26,7 @@ print("Hello World")
 then you can excute the script
 $ ./hello.lua
 3 reference: http://www.lua.org/pil/contents.html
-              http://www.runoob.com/lua/lua-tutorial.html
+             http://www.runoob.com/lua/lua-tutorial.html
 --]]
 -- lua is a dynamic typing language, you don't need to define variable type before you use it.
 a = 10
