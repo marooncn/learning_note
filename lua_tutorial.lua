@@ -25,8 +25,10 @@ create a .lua file and specify the interpreter, such as hello.lua, the content i
 print("Hello World")
 then you can excute the script
 $ ./hello.lua
+Hello World！
 3 reference: http://www.lua.org/pil/contents.html
              http://www.runoob.com/lua/lua-tutorial.html
+             http://lua-users.org/wiki/TutorialDirectory
 --]]
 -- lua is a dynamic typing language, you don't need to define variable type before you use it.
 a = 10
@@ -57,26 +59,30 @@ print(#string1) --15 , use '#' to get the string length.
 string4 = [[
 cat
 dog  ]]  -- it's convenient in some cases.
+ -- when a numeric string invloves in the digital operations, lua will try convert it to number.    
+print("2" + 6) -- 8.0
 -- The table type implements associative arrays.
 tab1 = {} --create a blank table.
 tab1[1] = 'dog'
 k = 'key'
 tab1[k] = 'cat' 
 print(tab1[k]) -- cat
--- Don't confuse a.x with a[x], a.x represents a['x'], that is, a table indexed by the string 'x'.
+ -- Don't confuse a.x with a[x], a.x represents a['x'], that is, a table indexed by the string 'x'.
 print(tab1.k)  -- nil , undefied tab1['k']  
--- when a numeric string invloves in the digital operations, lua will try convert it to number.    
-print("2" + 6) -- 8.0
+ -- when the value of a table is displayed only the type and unique id of the object are displayed
+print(tab1)    -- table: 0035AE18
+ -- To print out the contents of a table we must do so explicitly, for example:
 for x, y in pairs(tab1) do  -- generic for cycle, explained in control flow section
     print(x .. " : " .. y)  -- print the index and elements
 end  
+    
 -- [[ Functions are first-class values in Lua. That means that functions can be stored in variables, passed as 
 arguments to other functions, and returned as results. -- ]]
--- a simple example
+ -- a simple example
 function echo(x)  -- you can also use 'echo = function(x)' to create.
     print(x)
 end
--- a  complex example  
+ -- a  complex example  
 function fcn2(n, fcn) -- you can also use 'fcn2 = function(n, fcn)' to create.
     n = fcn(n)
     if n == 0 then
@@ -87,9 +93,9 @@ function fcn2(n, fcn) -- you can also use 'fcn2 = function(n, fcn)' to create.
 end
 fcn2_copy = fcn2  -- copy as a variable
 print(fcn2_copy(-4, math.abs))  -- 12 , 'math.abs' is an in-built function to get the absolute value. 
--- For convenience, you can use anonymous function to pass function 
+ -- For convenience, you can use anonymous function to pass function 
 print(fcn2_copy(-4, function(x) return(math.abs(x)-1) end)) -- 3
--- Variable Arguments, just use '...' to denote variable arguments, which is similar to C.
+ -- Variable Arguments, just use '...' to denote variable arguments, which is similar to C.
 function average(...)
    result = 0
    local arg={...}  
