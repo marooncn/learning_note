@@ -41,3 +41,6 @@ public:
         return s.substr(start, end-start+1);     
     }
 };
+
+
+// 在处理字符串问题如统计每个字符出现的次数时，用char值作为数组下标时要考虑到char可能为负数，因此先强制转换为unsigned char再用作下标
