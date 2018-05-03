@@ -14,6 +14,7 @@ string char2String(char c) {
     ss >> s;
     return s;
 }
+// 向定义好的string里添加char可以直接用append,即 string.append(size_t n, char c)
 
 // 得到字符串中的最大回文数
 #include <string>
