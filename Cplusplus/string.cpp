@@ -16,32 +16,5 @@ string char2String(char c) {
 }
 // 向定义好的string里添加char可以直接用append,即 string.append(size_t n, char c)
 
-// 得到字符串中的最大回文数
-#include <string>
-using std::string;
-
-void getPalindrome(const string &s, int a, int b, int &start, int &end) {
-    string::size_type len = s.size();
-    while(a>=0 && b<len && s[a]==s[b]) {
-        if(b-a > end-start) {  // 更新
-            start = a;
-            end = b;
-        }  
-        a--,b++;
-    }
-}
-
-class Solution {
-public:
-    string longestPalindrome(string s) {
-        int start = 0, end = 0;
-        for(int i=0; i<s.size()-1; i++) {
-            getPalindrome(s, i, i, start, end);  // 回文数个数为奇数，如 a b c
-            getPalindrome(s, i, i+1, start, end);  // 回文数个数为偶数，如 a b b c
-        }
-        return s.substr(start, end-start+1);     
-    }
-};
-
 
 // 在处理字符串问题如统计每个字符出现的次数时，用char值作为数组下标时要考虑到char可能为负数，因此先强制转换为unsigned char再用作下标
