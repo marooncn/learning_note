@@ -175,7 +175,7 @@ using std::string;
 void getPalindrome(const string &s, int a, int b, int &start, int &end) {
     string::size_type len = s.size();
     while(a>=0 && b<len && s[a]==s[b]) {
-        if(b-a > end-start) {  // update
+        if(b-a > end-start) {  // 更新
             start = a;
             end = b;
         }  
@@ -188,8 +188,8 @@ public:
     string longestPalindrome(string s) {
         int start = 0, end = 0;
         for(int i=0; i<s.size()-1; i++) {
-            getPalindrome(s, i, i, start, end);  // 回文数个数为奇数
-            getPalindrome(s, i, i+1, start, end);  // 回文数个数为偶数
+            getPalindrome(s, i, i, start, end);  // 回文数个数为奇数，如 a b c
+            getPalindrome(s, i, i+1, start, end);  // 回文数个数为偶数，如 a b b c
         }
         return s.substr(start, end-start+1);     
     }
