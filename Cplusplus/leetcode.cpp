@@ -287,3 +287,21 @@ public:
         return flag*result; 
     }
 };
+
+9. Palindrome Number
+class Solution {
+public:
+    bool isPalindrome(int x) {
+        int result = 0;
+        int tmp = x;
+        if(tmp < 0)
+            return false;
+        for(; tmp > 0; tmp = tmp/10) {
+            result = 10*result + tmp%10;
+        }
+        if(result == x)
+            return true;
+        else
+            return false;
+    }
+};
