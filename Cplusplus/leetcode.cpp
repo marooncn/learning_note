@@ -305,3 +305,41 @@ public:
             return false;
     }
 };
+
+11. Container With Most Water
+#include <vector>
+#include <Algorithm>
+using std::vector;
+using std::max; using std::min; 
+
+class Solution {
+public:
+    int maxArea(vector<int>& height) {
+        /* 暴力搜索法,时间复杂度O（n^2）：超时 
+        vector<int>::size_type len = height.size();
+        int maxVol = 0;
+        for(int i=0; i<len; i++)
+            for(int j=i+1; j<len; j++) {
+                int vol = (j-i)*((height[i]>height[j]) ? height[j] : height[i]);
+                if(vol > maxVol)
+                    maxVol = vol;              
+            } 
+        
+        return maxVol;     */
+        // 以两端垂线围成的面积为初始容量，要想容量更大，需要向内寻找更长的边，因此逐渐向内移动较短的一边。这种方法的时间复杂度为O（n）
+        int maxVol = 0;
+        for(auto beg=height.begin(), end = height.end()-1; end > beg; ) {
+             maxVol = max(maxVol, min(*beg, *end)*static_cast<int>(end-beg));
+            if(*beg < *end)
+                beg++;
+            else
+                end--;
+        }
+        return maxVol;
+        /* 代码可以写到更简
+        int maxVol = 0;
+        for(auto beg=height.begin(), end = height.end()-1; end > beg; *beg<*end? beg++ : end--) 
+             maxVol = max(maxVol, min(*beg, *end)*static_cast<int>(end-beg));
+        return maxVol; */
+    }
+};
