@@ -343,3 +343,36 @@ public:
         return maxVol; */
     }
 };
+
+12. Integer to Roman
+#include <map>
+#include <string>
+using std::string;
+using std::map;
+
+class Solution {
+public:
+    string intToRoman(int num) {
+        map<int, string> mp = {{1, "I"},{4, "IV"}, {5, "V"}, {9, "IX"}, {10, "X"}, {40, "XL"}, {50, "L"}, 
+                               {90, "XC"}, {100, "C"}, {400, "CD"}, {500, "D"}, {900, "CM"}, {1000, "M"}};
+        
+        string result;
+        while(num > 0)
+            for(auto beg = mp.rbegin(); beg != mp.rend(); beg++) {
+                if(num >= beg->first) {
+                    result += beg->second;  // string定义后（默认值null）可直接通过+赋值
+                    num -= beg->first;
+                    break;
+                }   
+           }
+        
+     /*OR  for(auto beg = mp.rbegin(); beg != mp.rend(); beg++)  {
+            while(num >= beg->first) {
+                result += beg-second;
+                num -= beg->first;
+            }
+        } */
+        
+       return result;     
+    }
+}; 
