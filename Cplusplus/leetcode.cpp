@@ -358,7 +358,7 @@ public:
         
         string result;
         while(num > 0)
-            for(auto beg = mp.rbegin(); beg != mp.rend(); beg++) {
+            for(auto beg = mp.rbegin(); beg != mp.rend(); beg++) {  // 逆向迭代
                 if(num >= beg->first) {
                     result += beg->second;  // string定义后（默认值null）可直接通过+赋值
                     num -= beg->first;
