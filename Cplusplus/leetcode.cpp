@@ -376,3 +376,39 @@ public:
        return result;     
     }
 }; 
+
+13. Roman to Integer
+#include <map>
+#include <string>
+using std::map;
+using std::string;
+
+bool findElement(map<string, int> m, string str) {
+    for(const auto &w : m)
+        if(w.first == str) 
+            return true;
+    return false;
+}
+
+class Solution {
+public:
+    int romanToInt(string s) {
+        int result = 0;
+        map<string, int> mp = {{"I", 1},  {"IV", 4},  {"V", 5}, {"IX", 9}, {"X", 10}, {"XL", 40},{"L", 50}, 
+                               {"XC", 90}, {"C", 100}, {"CD", 400}, {"D", 500}, {"CM", 900}, {"M", 1000}};
+        auto len = s.size();
+        for(int i = 0; i < len; i++) {
+            string tmp;
+            if(i+1 < len && findElement(mp, tmp = tmp+s[i]+s[i+1])) 
+                // 或 tmp.append(s, i, 2)
+                // 但写成 tmp = s[i]+s[i+1]或tmp += s[i]+s[i+1]都会转化成数字
+                i++;
+            else 
+                tmp = s[i]; 
+            
+            result += mp[tmp];    
+        }
+        return result;
+
+    }
+};
