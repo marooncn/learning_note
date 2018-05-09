@@ -401,7 +401,7 @@ public:
             string tmp;
             if(i+1 < len && findElement(mp, tmp = tmp+s[i]+s[i+1])) 
                 // 或 tmp.append(s, i, 2)
-                // 但写成 tmp = s[i]+s[i+1]或tmp += s[i]+s[i+1]都会转化成数字
+                // 但写成 tmp = s[i]+s[i+1]会转换成数字，tmp += s[i]+s[i+1]会得到其它字符
                 i++;
             else 
                 tmp = s[i]; 
