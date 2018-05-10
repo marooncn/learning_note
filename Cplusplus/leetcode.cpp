@@ -434,3 +434,22 @@ public:
         return res;
     }
 };  */
+
+
+14. Longest Common Prefix
+class Solution {
+public:
+    string longestCommonPrefix(vector<string>& strs) {
+        std::size_t len = strs.size();
+        if(len == 0)
+            return "";
+        string prefix;
+        for(int i=0; i<strs[0].size(); i++) {
+            for(int j=1; j<len; j++)
+                if(strs[j].size() <= i || strs[j][i] != strs[0][i])
+                    return prefix;
+            prefix += strs[0][i];
+        }         
+        return prefix;
+    }
+};
