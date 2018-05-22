@@ -454,7 +454,7 @@ public:
     }
 };
 
-3Sum
+15. 3Sum
 #include <vector>
 #include <algorithm>
 using std::vector;
@@ -488,3 +488,36 @@ public:
         return result;
     }
 };  
+
+16. 3Sum Closest
+#include <vector>
+#include <algorithm>
+#include <cmath>
+
+using std::vector;
+using std::sort;
+class Solution {
+public:
+    int threeSumClosest(vector<int>& nums, int target) {
+        assert(nums.size() > 2);
+        sort(nums.begin(), nums.end());
+        int result, sum;
+        for(auto i=nums.begin(); i<nums.end()-2; i++) {
+            auto j = i+1;
+            auto k = nums.end()-1;
+            if(i==nums.begin()) result=*i+*j+*k;
+            while(j < k) {
+                sum = *i+*j+*k;
+                if(abs(sum-target) < abs(result-target))
+                    result = *i+*j+*k; 
+                if(sum < target) 
+                    j++;
+                else if(sum > target)
+                    k--;
+                else
+                    return result;
+            }   
+        }
+        return result; 
+    }
+}; 
