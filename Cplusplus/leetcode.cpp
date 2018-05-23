@@ -521,3 +521,29 @@ public:
         return result; 
     }
 }; 
+
+17. Letter Combinations of a Phone Number
+#include <string>
+#include <vector>
+#include <map>
+
+using std::string;
+using std::vector;
+
+class Solution {
+public:
+    vector<string> letterCombinations(string digits) {
+        map<char,string> mapping = {{'2',"abc"}, {'3',"def"}, {'4', "ghi"}, {'5', "jkl"}, 
+                                {'6', "mno"}, {'7', "pqrs"}, {'8', "tuv"},{'9', "wxyz"}};
+        vector<string> result;
+        if(digits=="") return result;  // 返回 []
+        result = {""};  //这一步是必须的，否则第三层循环进不去
+        for(auto digit:digits) {  //第一层循环，逐个输入的数字
+            vector<string> tmp;
+            for(auto chr:mapping[digit])   //第二层循环，逐个数字对应的字符
+                for(const auto &pre:result)   //第三层循环，逐个叠加到前层
+                    tmp.push_back(pre+chr);
+            result = tmp; }   
+        return result;
+    }
+};
