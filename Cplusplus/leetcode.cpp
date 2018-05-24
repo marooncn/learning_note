@@ -547,3 +547,62 @@ public:
         return result;
     }
 };
+
+
+18. 4Sum
+#include <vector>
+#include <algorithm>
+
+using std::sort;
+
+class Solution {
+public:  
+    vector<vector<int> > fourSum(vector<int> &num, int target) {  
+        int n = num.size();  
+        vector<vector<int> > ret;  
+        if(n < 4) return ret;  
+        vector<int> ivec(num);  
+        sort(ivec.begin(), ivec.end());  
+        unordered_map<int, vector<pair<int,int> > > pairs;  
+        pairs.reserve(n*n);  // 重组存储，使得pairs可以保存n*n个元素且不必rehash
+          
+        //将n个数字的两两组合求和存进map 相同和的对在map中按照链表存储，即存在vector中 j从i+1开始  
+        for(int i = 0; i < n; i++)  
+        {  
+            for(int j = i+1; j < n; j++)  
+            {  
+                pairs[ivec[i] + ivec[j]].push_back(make_pair(i,j));  
+            }  
+        }  
+          
+        for(int i = 0; i < n - 3; i++)  
+        {  
+            if(i > 0 && ivec[i] == ivec[i-1]) continue;  
+            for(int j = i+1; j < n - 2; j++)  
+            {  
+                if(j > i+1 && ivec[j] == ivec[j-1]) continue;  
+                if(pairs.find(target - ivec[i] - ivec[j]) != pairs.end())  
+                {  
+                    vector<pair<int, int> > sum2 = pairs[target - ivec[i] - ivec[j]];  
+                    bool isFstpush = true;  
+                    //将符合要求的不重复且下标递增的pair存进答案  
+                    for(int k = 0; k < sum2.size(); k++)  
+                    {  
+                        if(sum2[k].first <= j) continue;  
+                        //第一次存储的重复数字，或者不是重复数字，判断第三位是否相等  
+                        if(isFstpush || (ret.back())[2] != ivec[sum2[k].first])  
+                        {  
+                           vector<int> tmp{ivec[i], ivec[j], ivec[sum2[k].first], ivec[sum2[k].second]};   
+                           ret.push_back(tmp);  
+                           isFstpush = false;  
+                        }  
+                    }  
+                }  
+            }  
+        }  
+          
+        return ret;  
+    }  
+      
+}; 
+
