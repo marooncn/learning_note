@@ -606,3 +606,26 @@ public:
       
 }; 
 
+19. Remove Nth Node From End of List
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+ /* 删除链表结点， node1->next = node3; 或者 node1->next = node2->next; 或者 node1->next = node1->next->next;
+    更好的做法是   ListNode **del = &node2;
+                *del = (*del)->next; // 直接替换，只有两个指针参与 */
+   
+class Solution {
+public:
+    ListNode* removeNthFromEnd(ListNode* head, int n) {
+        ListNode *iter=head, **del=&head; //iter用于迭代，del用于删除，两者距离始终为n，当iter指向空指针时，*del所指结点即为删除的结点
+        for(int i=0; i<n; i++,iter=iter->next);
+        for(; iter!=NULL; iter=iter->next, del = &((*del)->next));
+        *del = (*del)->next;  
+        return head;
+    }
+};
