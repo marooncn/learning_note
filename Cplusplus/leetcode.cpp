@@ -1,3 +1,24 @@
+20. Valid Parentheses
+#include <string>
+#include <stack>
+using std::string;
+using std::stack;
+/* 用堆栈来实现括号匹配 */
+class Solution {
+public:
+    bool isValid(string s) {
+         stack<char> st;
+         for(auto i : s) 
+             if(!st.empty() && ((i==')' && st.top()=='(') || (i==']' && st.top()=='[') || (i=='}' && st.top()=='{')))
+              // st.empty()判断栈是否为空，st.top()返回栈顶元素，st.pop()删除栈顶元素，st.push(item)将新元素压入栈顶
+                 st.pop();
+             else
+                 st.push(i);       
+        return st.empty();
+    }
+};
+
+
 1. Two Sum
 Solution 1
 #include <iostream>
