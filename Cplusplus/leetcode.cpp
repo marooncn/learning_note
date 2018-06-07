@@ -143,6 +143,7 @@ public:
     ListNode *addTwoNumbers(ListNode *l1, ListNode *l2) {
         ListNode dummy(0), *tail = &dummy;
         for (div_t sum{0, 0}; sum.quot || l1 || l2; tail = tail->next) {
+        // div为cstdlib库中规定的函数，div_t out = div(a,b)，out.quot为a/b，out.rem为a%b
             if (l1) { sum.quot += l1->val; l1 = l1->next; }
             if (l2) { sum.quot += l2->val; l2 = l2->next; }
             sum = div(sum.quot, 10);
