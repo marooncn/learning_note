@@ -1,3 +1,24 @@
+22. Generate Parentheses
+#include <vector>
+#include <string>
+
+using std::string; using std::vector;
+//魔性的递归啊
+class Solution {
+public:
+    vector<string> vec;
+    void addParenthesis(string str, int ln, int rn)  
+        {
+            if (ln == 0 && rn == 0) vec.push_back(str);
+            if (ln > 0) addParenthesis(str+"(", ln-1, rn+1);
+            if (rn > 0) addParenthesis(str+")", ln, rn-1); }
+    vector<string> generateParenthesis(int n) {
+        addParenthesis("", n, 0);
+        return vec;
+    }
+};
+
+
 21. Merge Two Sorted Lists
 /**
  * Definition for singly-linked list.
