@@ -1,3 +1,28 @@
+24. Swap Nodes in Pairs
+#include <cstdlib>  // NULL头文件
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* swapPairs(ListNode* head) {
+        ListNode* dummy = new ListNode(0);
+        dummy->next = head;
+        for(ListNode *p1=dummy,*p2=head; p2 && p2->next; p1=p2, p2=p2->next) {  
+            //交换相邻节点需要注意这两个节点交换前后和之前、之后节点的关系，这里p1就是之前节点
+            p1->next = p2->next;
+            p2->next = p2->next->next;
+            p1->next->next = p2;
+        }
+        return dummy->next;
+    }
+};
+
 22. Generate Parentheses
 #include <vector>
 #include <string>
