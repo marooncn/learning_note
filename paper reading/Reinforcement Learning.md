@@ -50,6 +50,7 @@
 [Using Keras and Deep Deterministic Policy Gradient to play TORCS](https://yanpanlau.github.io/2016/10/11/Torcs-Keras.html)(DDPG) <br>
 [Use proximal policy optimization to play BipedalWalker and Torcs](https://junhongxu.github.io/JunhongXu.github.io/Proximal-Policy-Optimization/)(PPO) <br>
 [Simple Reinforcement Learning with Tensorflow Part 8](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-8-asynchronous-actor-critic-agents-a3c-c88f72a5e9f2)(A3C) <br>
+[A3C Blog Post](https://github.com/tensorflow/models/tree/a2a943da2635bfe93cd0c17a1d186f1f3235126c/research/a3c_blogpost) <br>
 [Deep Reinforcement Learning Doesn't Work Yet](https://www.alexirpan.com/2018/02/14/rl-hard.html) <br>
 [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html) <br>
 [李宏毅：Deep Reinforcement Learning](http://speech.ee.ntu.edu.tw/~tlkagk/courses/ML_2016/Lecture/RL%20(v6).pdf) <br>
