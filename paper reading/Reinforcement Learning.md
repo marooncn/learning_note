@@ -19,7 +19,9 @@
 ### Benchmark
 [gym](https://gym.openai.com/envs/)(OpenAI, big gays) <br>
 [gym Retro](https://blog.openai.com/gym-retro/)(OpenAI, game platform) <br>
+[Retro Contest](https://blog.openai.com/retro-contest/)(a transfer learning contest for generalization test) <br>
 [Roboschool](https://blog.openai.com/roboschool/)(OpenAI 2017) <br>
+[DeepMind Lab](https://github.com/deepmind/lab)(DeepMind 2016, first-person 3D game platform) <br>
 [Control Suite](https://github.com/deepmind/dm_control)(DeepMind 2018) <br>
 [Unity](https://unity3d.com/machine-learning/) <br>
 [pybullet](https://pypi.org/project/pybullet/) <br>
