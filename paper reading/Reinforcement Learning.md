@@ -13,10 +13,12 @@
 [Generative Adversial Imitation Learning](http://papers.nips.cc/paper/6391-generative-adversarial-imitation-learning)(NIPS 2016, GAIL)<br>
 [Proximal Policy Optimization Algorithms](https://arxiv.org/pdf/1707.06347.pdf)(arxiv 2017, OpenAI PPO)<br>
 [Emergence of Locomotion Behaviours in Rich Environments](https://arxiv.org/pdf/1707.02286.pdf) (arxiv 2017, DeepMind PPO)<br>
+[A Distributional Perspective on Reinforcement Learning](https://deepmind.com/blog/going-beyond-average-reinforcement-learning/)(ICML 2017, C51)
 [Rainbow: Combining improvements in deep reinforcement learning](https://arxiv.org/pdf/1710.02298.pdf)(AAAI 2018, Rainbow)<br>
 
 ### Benchmark
 [gym](https://gym.openai.com/envs/)(OpenAI, big gays) <br>
+[gym Retro](https://blog.openai.com/gym-retro/)(OpenAI, game platform) <br>
 [Roboschool](https://blog.openai.com/roboschool/)(OpenAI 2017) <br>
 [Control Suite](https://github.com/deepmind/dm_control)(DeepMind 2018) <br>
 [Unity](https://unity3d.com/machine-learning/) <br>
@@ -50,6 +52,7 @@
 [Using Keras and Deep Deterministic Policy Gradient to play TORCS](https://yanpanlau.github.io/2016/10/11/Torcs-Keras.html)(DDPG) <br>
 [Use proximal policy optimization to play BipedalWalker and Torcs](https://junhongxu.github.io/JunhongXu.github.io/Proximal-Policy-Optimization/)(PPO) <br>
 [Simple Reinforcement Learning with Tensorflow Part 8](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-8-asynchronous-actor-critic-agents-a3c-c88f72a5e9f2)(A3C) <br>
+[Reinforcement learning with the A3C algorithm](https://cgnicholls.github.io/reinforcement-learning/2017/03/27/a3c.html)(A3C) <br>
 [A3C Blog Post](https://github.com/tensorflow/models/tree/a2a943da2635bfe93cd0c17a1d186f1f3235126c/research/a3c_blogpost) <br>
 [Deep Reinforcement Learning Doesn't Work Yet](https://www.alexirpan.com/2018/02/14/rl-hard.html) <br>
 [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html) <br>
