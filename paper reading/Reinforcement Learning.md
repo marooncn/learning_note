@@ -26,6 +26,11 @@
 [Unity](https://unity3d.com/machine-learning/) <br>
 [pybullet](https://pypi.org/project/pybullet/) <br>
 
+### Implementations
+[OpenAI Baselines](https://github.com/openai/baselines)(OpenAI) <br>
+[Dopamine](https://github.com/google/dopamine)(Google) <br>
+[Coach](https://github.com/NervanaSystems/coach)(Intel) 
+
 ### Computer Vision
 [Active Object Localization with Deep Reinforcement Learning](http://slazebni.cs.illinois.edu/publications/iccv15_active.pdf)(ICCV 2015)<br>
 [Hierarchical Object Detection with Deep Reinforcement Learning](https://imatge-upc.github.io/detection-2016-nipsws/)(NIPS 2016) <br>
