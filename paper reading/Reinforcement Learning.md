@@ -28,9 +28,11 @@
 
 ### Implementations
 [OpenAI Baselines](https://github.com/openai/baselines)(OpenAI) <br>
+[Horizon](https://github.com/facebookresearch/Horizon)(Facebook)  <br>
+[TensorForce](https://github.com/reinforceio/tensorforce)(Cambridge)  <br>
 [Dopamine](https://github.com/google/dopamine)(Google) <br>
-[Coach](https://github.com/NervanaSystems/coach)(Intel)   <br>
-[Horizon](https://github.com/facebookresearch/Horizon)(Facebook)
+[Coach](https://github.com/NervanaSystems/coach)(Intel)  <br>
+
 
 ### Computer Vision
 [Active Object Localization with Deep Reinforcement Learning](http://slazebni.cs.illinois.edu/publications/iccv15_active.pdf)(ICCV 2015)<br>
