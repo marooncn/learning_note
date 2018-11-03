@@ -29,7 +29,7 @@
 ### Implementations
 [OpenAI Baselines](https://github.com/openai/baselines)(OpenAI) <br>
 [Horizon](https://github.com/facebookresearch/Horizon)(Facebook)  <br>
-[TensorForce](https://github.com/reinforceio/tensorforce)(Cambridge)  <br>
+[TensorForce](https://github.com/reinforceio/tensorforce)(reinforce.io)  <br>
 [Dopamine](https://github.com/google/dopamine)(Google) <br>
 [Coach](https://github.com/NervanaSystems/coach)(Intel)  <br>
 
