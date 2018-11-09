@@ -39,9 +39,10 @@
 [Hierarchical Object Detection with Deep Reinforcement Learning](https://imatge-upc.github.io/detection-2016-nipsws/)(NIPS 2016) <br>
 [Crafting a Toolchain for Image Restoration by Deep Reinforcement Learning](http://mmlab.ie.cuhk.edu.hk/projects/RL-Restore/)(CVPR 2018) <br>
 
-### Curiosity
+### Curiosity & Exploration
 [Curiosity-driven exploration by self-supervised prediction](https://arxiv.org/pdf/1705.05363.pdf)(ICML 2017) <br>
-[Large-ScaleStudyofCuriosity-DrivenLearning](https://pathak22.github.io/large-scale-curiosity/resources/largeScaleCuriosity2018.pdf)(arxiv 2018)
+[Large-Scale Study of Curiosity-Driven Learning](https://blog.openai.com/reinforcement-learning-with-prediction-based-rewards/#RNDjump)(Random Network Distillation, OpenAI 2018)
+
 
 ### Doom
 [ViZDoom: A Doom-based AI Research Platform for Visual Reinforcement Learning](https://arxiv.org/pdf/1605.02097.pdf) <br>
@@ -68,3 +69,4 @@
 [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html) <br>
 [李宏毅：Deep Reinforcement Learning](http://speech.ee.ntu.edu.tw/~tlkagk/courses/ML_2016/Lecture/RL%20(v6).pdf) <br>
 [DeepMind - Deep Reinforcement Learning - RLSS 2017.pdf](https://drive.google.com/file/d/0BzUSSMdMszk6UE5TbWdZekFXSE0/view)<br>
+[OpenAI Spinning up](https://spinningup.openai.com/en/latest/) 
