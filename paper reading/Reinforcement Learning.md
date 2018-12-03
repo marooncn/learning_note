@@ -15,6 +15,7 @@
 [Emergence of Locomotion Behaviours in Rich Environments](https://arxiv.org/pdf/1707.02286.pdf) (arxiv 2017, DeepMind PPO)<br>
 [A Distributional Perspective on Reinforcement Learning](https://deepmind.com/blog/going-beyond-average-reinforcement-learning/)(ICML 2017, C51) <br>
 [Rainbow: Combining improvements in deep reinforcement learning](https://arxiv.org/pdf/1710.02298.pdf)(AAAI 2018, Rainbow)<br>
+[Multi-task Deep Reinforcement Learning with PopArt](https://deepmind.com/blog/preserving-outputs-precisely-while-adaptively-rescaling-targets/)(PopArt, train a single agent that can play a whole set of 57 diverse Atari video games)<br>
 
 ### Benchmark
 [gym](https://gym.openai.com/envs/)(OpenAI, big gays) <br>
