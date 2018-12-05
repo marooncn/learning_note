@@ -18,6 +18,11 @@
 [Rainbow: Combining improvements in deep reinforcement learning](https://arxiv.org/pdf/1710.02298.pdf)(AAAI 2018, Rainbow)<br>
 [Multi-task Deep Reinforcement Learning with PopArt](https://deepmind.com/blog/preserving-outputs-precisely-while-adaptively-rescaling-targets/)(PopArt, train a single agent that can play a whole set of 57 diverse Atari video games)<br>
 
+### Meta-Learning
+[Learning to reinforcement learn](https://arxiv.org/pdf/1611.05763.pdf)(DeepMind 2017) <br>
+[Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://bair.berkeley.edu/blog/2017/07/18/learning-to-learn/)(ICML 2017, MAML) <br>
+[Reptile: A Scalable Meta-Learning Algorithm](https://blog.openai.com/reptile/)(OpenAI 2018, Retile)
+
 ### Benchmark
 [gym](https://gym.openai.com/envs/)(OpenAI, big gays) <br>
 [gym Retro](https://blog.openai.com/gym-retro/)(OpenAI, game platform) <br>
@@ -30,6 +35,7 @@
 
 ### Implementations
 [OpenAI Baselines](https://github.com/openai/baselines)(OpenAI) <br>
+[rllab](https://rllab.readthedocs.io/en/latest/index.html#)(Berkeley) <br>
 [Horizon](https://github.com/facebookresearch/Horizon)(Facebook)  <br>
 [TensorForce](https://github.com/reinforceio/tensorforce)(reinforce.io)  <br>
 [Dopamine](https://github.com/google/dopamine)(Google) <br>
