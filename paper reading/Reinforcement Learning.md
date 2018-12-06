@@ -5,23 +5,34 @@
 [Human-level control through deep reinforcement learning](https://www.nature.com/articles/nature14236.pdf)(Nature 2015, traget Q-network)<br>
 [Deep Reinforcement Learning with Double Q-learning](https://pdfs.semanticscholar.org/3b97/32bb07dc99bde5e1f9f75251c6ea5039373e.pdf)(AAAI 2016, Double DQN) <br>
 [Prioritized Experience Replay](https://arxiv.org/pdf/1511.05952.pdf)(ICLR 2016, Prioritized replay)<br>
+[Hindsight Experience Replay](https://arxiv.org/pdf/1707.01495v1.pdf)(arxiv 2017, [blog](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650738356&idx=2&sn=381fdd93dc1858580143ee2dff9cf304&chksm=871acacab06d43dcee1d41ff6a8c7b00c1709928a2c1c4f3c252611f6d079b13cdb4339e1fd4&mpshare=1&scene=1&srcid=0309hQxWBV8tlgG779mgswab&pass_ticket=NFFgROZS%2B2E12ics9enIgh0g9UP35ouHDe07%2FZfe5koayvAfbE5TgsaUjUrsXXLV#rd), HER) <br>
 [Dueling Network Architectures for Deep Reinforcement](https://arxiv.org/pdf/1511.06581.pdf)(ICML 2016, Dueling DQN)<br>
-[Mastering the game of Go with deep neural networks and tree search](http://www.cs.cmu.edu/afs/cs/academic/class/15780-s16/www/AlphaGo.nature16961.pdf)(Nature 2016, AlphaGo)<br>
+[Mastering the game of Go with deep neural networks and tree search](http://www.cs.cmu.edu/afs/cs/academic/class/15780-s16/www/AlphaGo.nature16961.pdf)(Nature 2016, AlphaGo) <br>
 [Continuous control with deep reinforcement learning](https://arxiv.org/pdf/1509.02971.pdf)(ICLR 2016, DDPG)<br>
-[Continuous Deep Q-Learning with Model-based Acceleration](https://arxiv.org/pdf/1603.00748.pdf)([blog](https://blog.csdn.net/u013236946/article/details/73243310/) & [Zhihu](https://zhuanlan.zhihu.com/p/21609472), DeepMind 2016, NAF)<br>
+[Continuous Deep Q-Learning with Model-based Acceleration](https://arxiv.org/pdf/1603.00748.pdf)([blog](https://blog.csdn.net/u013236946/article/details/73243310/) & [Zhihu](https://zhuanlan.zhihu.com/p/21609472), DeepMInd 2016, NAF)<br>
 [Asynchronous Methods for Deep Reinforcement Learning ](https://arxiv.org/pdf/1602.01783.pdf)(ICML 2016, A3C)<br>
 [Reinforcement Learning thorugh Asynchronous Advantage Actor-Critic on a GPU](https://openreview.net/forum?id=r1VGvBcxl&noteId=r1VGvBcxl)(ICLR 2017, GA3C) <br>
-[Generative Adversial Imitation Learning](http://papers.nips.cc/paper/6391-generative-adversarial-imitation-learning)(NIPS 2016, GAIL)<br>
+[Generative Adversial Imitation Learning](http://papers.nips.cc/paper/6391-generative-adversarial-imitation-learning)(NIPS 2016, GAIL) <br>
 [Proximal Policy Optimization Algorithms](https://arxiv.org/pdf/1707.06347.pdf)(arxiv 2017, OpenAI PPO)<br>
 [Emergence of Locomotion Behaviours in Rich Environments](https://arxiv.org/pdf/1707.02286.pdf) (arxiv 2017, DeepMind PPO)<br>
-[A Distributional Perspective on Reinforcement Learning](https://deepmind.com/blog/going-beyond-average-reinforcement-learning/)(ICML 2017, C51) <br>
+[Reinforcement learning with Deep Energy-Based Polices](https://arxiv.org/pdf/1702.08165.pdf)([blog](https://bair.berkeley.edu/blog/2017/10/06/soft-q-learning/), ICML 2017, Soft Q-learning) <br>
+[A Distributional Perspective on Reinforcement Learning](https://deepmind.com/blog/going-beyond-average-reinforcement-learning/)(ICML 2017, Distributional RL, C51) <br>
+[Meta-Learning Shared Hierarchies](https://arxiv.org/pdf/1710.09767.pdf)([blog](https://blog.openai.com/learning-a-hierarchy/), OpenAI 2017, Hierarchical RL) <br>
 [Rainbow: Combining improvements in deep reinforcement learning](https://arxiv.org/pdf/1710.02298.pdf)(AAAI 2018, Rainbow)<br>
-[Multi-task Deep Reinforcement Learning with PopArt](https://deepmind.com/blog/preserving-outputs-precisely-while-adaptively-rescaling-targets/)(PopArt, train a single agent that can play a whole set of 57 diverse Atari video games)<br>
+[Multi-task Deep Reinforcement Learning with PopArt](https://deepmind.com/blog/preserving-outputs-precisely-while-adaptively-rescaling-targets/)(PopArt, train a single agent that can play a whole set of 57 diverse Atari video games with reward signal normalization)<br>
 
 ### Meta-Learning
 [Learning to reinforcement learn](https://arxiv.org/pdf/1611.05763.pdf)(DeepMind 2017) <br>
 [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://bair.berkeley.edu/blog/2017/07/18/learning-to-learn/)(ICML 2017, MAML) <br>
 [Reptile: A Scalable Meta-Learning Algorithm](https://blog.openai.com/reptile/)(OpenAI 2018, Retile)
+
+
+### Curiosity & Exploration
+[Reinforcement Learning with Unsupervised Auxiliary Tasks](https://arxiv.org/pdf/1611.05397.pdf)(UNREAL, DeepMind 2016) <br>
+[Curiosity-driven exploration by self-supervised prediction](https://arxiv.org/pdf/1705.05363.pdf)(ICML 2017) <br>
+[Large-Scale Study of Curiosity-Driven Learning](https://pathak22.github.io/large-scale-curiosity/)(OpenAI 2018)  <br>
+[Exploration by Random Network Distillation](https://arxiv.org/pdf/1810.12894.pdf)([blog](https://blog.openai.com/reinforcement-learning-with-prediction-based-rewards/#RNDjump), RND, exceed average human performance on Montezuma’s Revenge) <br>
+[Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play](https://cims.nyu.edu/~sainbar/selfplay/)(ICLR 2018) <br>
 
 ### Benchmark
 [gym](https://gym.openai.com/envs/)(OpenAI, big gays) <br>
@@ -41,18 +52,14 @@
 [Dopamine](https://github.com/google/dopamine)(Google) <br>
 [Coach](https://github.com/NervanaSystems/coach)(Intel)  <br>
 
+### Manipulation
+[Reinforcement and Imitation Learning for Diverse Visuomotor Skills](https://arxiv.org/pdf/1802.09564.pdf)([blog](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650739530&idx=4&sn=4b08a6f9253473da9ae2396ca78fae05&chksm=871ad734b06d5e22256df7c21d56d3ecace4170866f7868fcd252daf2848b7f56a890bc04c78&mpshare=1&scene=1&srcid=0319nOHWy1wXHfKTqEm3wXgd&pass_ticket=NFFgROZS%2B2E12ics9enIgh0g9UP35ouHDe07%2FZfe5koayvAfbE5TgsaUjUrsXXLV#rd),DeepMind 2018) <br>
+[Composable Deep Reinforcement Learning for Robotic Manipulation](https://lanl.arxiv.org/pdf/1803.06773v1)([blog](https://mp.weixin.qq.com/s?__biz=MzAxMzc2NDAxOQ==&mid=2650366547&idx=1&sn=5c75e5362e2951e68f0b2921e854f7db&chksm=8390568fb4e7df99601064e1bd6493250dcf9e058e2e64cd65e3e63f5c4843bae5b91583ce82&mpshare=1&scene=1&srcid=041005bm6qlvLmW563fbESQG&pass_ticket=NFFgROZS%2B2E12ics9enIgh0g9UP35ouHDe07%2FZfe5koayvAfbE5TgsaUjUrsXXLV#rd), Berkeley 2018, two strenghts of Soft Q-learning: multimodal exploration + composed)
 
 ### Computer Vision
 [Active Object Localization with Deep Reinforcement Learning](http://slazebni.cs.illinois.edu/publications/iccv15_active.pdf)(ICCV 2015)<br>
 [Hierarchical Object Detection with Deep Reinforcement Learning](https://imatge-upc.github.io/detection-2016-nipsws/)(NIPS 2016) <br>
 [Crafting a Toolchain for Image Restoration by Deep Reinforcement Learning](http://mmlab.ie.cuhk.edu.hk/projects/RL-Restore/)(CVPR 2018) <br>
-
-### Curiosity & Exploration
-[Reinforcement Learning with Unsupervised Auxiliary Tasks](https://arxiv.org/pdf/1611.05397.pdf)(UNREAL, DeepMind 2016) <br>
-[Curiosity-driven exploration by self-supervised prediction](https://arxiv.org/pdf/1705.05363.pdf)(ICML 2017) <br>
-[Large-Scale Study of Curiosity-Driven Learning](https://pathak22.github.io/large-scale-curiosity/)(OpenAI 2018)  <br>
-[Exploration by Random Network Distillation](https://arxiv.org/pdf/1810.12894.pdf)([blog](https://blog.openai.com/reinforcement-learning-with-prediction-based-rewards/#RNDjump), exceed average human performance on Montezuma’s Revenge) <br>
-[Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play](https://cims.nyu.edu/~sainbar/selfplay/)(ICLR 2018) <br>
 
 ### Doom
 [ViZDoom: A Doom-based AI Research Platform for Visual Reinforcement Learning](https://arxiv.org/pdf/1605.02097.pdf) <br>
