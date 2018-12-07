@@ -34,6 +34,9 @@
 [Exploration by Random Network Distillation](https://arxiv.org/pdf/1810.12894.pdf)([blog](https://blog.openai.com/reinforcement-learning-with-prediction-based-rewards/#RNDjump), RND, exceed average human performance on Montezuma’s Revenge) <br>
 [Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play](https://cims.nyu.edu/~sainbar/selfplay/)(ICLR 2018, Self-play: Alice and Bob) <br>
 
+### Reality Gap
+[Sim-to-Real: Learning Agile Locomotion For Quadruped Robots](https://arxiv.org/pdf/1804.10332.pdf)
+
 ### Benchmark
 [gym](https://gym.openai.com/envs/)(OpenAI, big gays) <br>
 [gym Retro](https://blog.openai.com/gym-retro/)(OpenAI, game platform) <br>
