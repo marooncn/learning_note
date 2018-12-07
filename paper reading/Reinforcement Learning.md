@@ -20,6 +20,7 @@
 [Meta-Learning Shared Hierarchies](https://arxiv.org/pdf/1710.09767.pdf)([blog](https://blog.openai.com/learning-a-hierarchy/), OpenAI 2017, Hierarchical RL) <br>
 [Rainbow: Combining improvements in deep reinforcement learning](https://arxiv.org/pdf/1710.02298.pdf)(AAAI 2018, Rainbow)<br>
 [Multi-task Deep Reinforcement Learning with PopArt](https://deepmind.com/blog/preserving-outputs-precisely-while-adaptively-rescaling-targets/)(PopArt, train a single agent that can play a whole set of 57 diverse Atari video games with reward signal normalization) <br>
+[Neural scene representation and rendering](http://science.sciencemag.org/content/360/6394/1204/tab-pdf)([blog](https://deepmind.com/blog/neural-scene-representation-and-rendering/), Science 2018, Generative Query Network (GQN)) <br>
 
 ### Meta-Learning
 [Learning to reinforcement learn](https://arxiv.org/pdf/1611.05763.pdf)(DeepMind 2017) <br>
