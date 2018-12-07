@@ -91,7 +91,7 @@
 [OpenAI Spinning up](https://spinningup.openai.com/en/latest/) 
 
 ### Rethink
-[Deep reinforcement learning that matters](Deep Reinforcement Learning that Matters) <br>
+[Deep reinforcement learning that matters](https://arxiv.org/pdf/1709.06560.pdf) <br>
 [Deep Reinforcement Learning Doesn't Work Yet](https://www.alexirpan.com/2018/02/14/rl-hard.html) <br>
 [Reinforcement Learning never worked, and 'deep' only helped a bit.](https://himanshusahni.github.io/2018/02/23/reinforcement-learning-never-worked.html) <br>
 [Lessons Learned Reproducing a Deep Reinforcement Learning Paper](http://amid.fish/reproducing-deep-rl) <br>
