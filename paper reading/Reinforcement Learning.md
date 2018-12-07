@@ -28,11 +28,11 @@
 
 
 ### Curiosity & Exploration
-[Reinforcement Learning with Unsupervised Auxiliary Tasks](https://arxiv.org/pdf/1611.05397.pdf)(UNREAL, DeepMind 2016) <br>
-[Curiosity-driven exploration by self-supervised prediction](https://arxiv.org/pdf/1705.05363.pdf)(ICML 2017) <br>
-[Large-Scale Study of Curiosity-Driven Learning](https://pathak22.github.io/large-scale-curiosity/)(OpenAI 2018)  <br>
+[Reinforcement Learning with Unsupervised Auxiliary Tasks](https://arxiv.org/pdf/1611.05397.pdf)(DeepMind 2016, UNREAL) <br>
+[Curiosity-driven exploration by self-supervised prediction](https://arxiv.org/pdf/1705.05363.pdf)(ICML 2017, Intrinsic Curiosity Module) <br>
+[Large-Scale Study of Curiosity-Driven Learning](https://pathak22.github.io/large-scale-curiosity/)(OpenAI 2018, Curiosity-driven Learning)  <br>
 [Exploration by Random Network Distillation](https://arxiv.org/pdf/1810.12894.pdf)([blog](https://blog.openai.com/reinforcement-learning-with-prediction-based-rewards/#RNDjump), RND, exceed average human performance on Montezuma’s Revenge) <br>
-[Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play](https://cims.nyu.edu/~sainbar/selfplay/)(ICLR 2018) <br>
+[Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play](https://cims.nyu.edu/~sainbar/selfplay/)(ICLR 2018, Self-play: Alice and Bob) <br>
 
 ### Benchmark
 [gym](https://gym.openai.com/envs/)(OpenAI, big gays) <br>
@@ -81,11 +81,22 @@
 [Using Deep Q-Learning in FIFA 18 to perfect the art of free-kicks](https://towardsdatascience.com/using-deep-q-learning-in-fifa-18-to-perfect-the-art-of-free-kicks-f2e4e979ee66)(DQN)<br>
 [Using Keras and Deep Deterministic Policy Gradient to play TORCS](https://yanpanlau.github.io/2016/10/11/Torcs-Keras.html)(DDPG) <br>
 [Use proximal policy optimization to play BipedalWalker and Torcs](https://junhongxu.github.io/JunhongXu.github.io/Proximal-Policy-Optimization/)(PPO) <br>
+[复现PPO](https://zhuanlan.zhihu.com/p/50322028) <br>
 [Simple Reinforcement Learning with Tensorflow Part 8](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-8-asynchronous-actor-critic-agents-a3c-c88f72a5e9f2)(A3C) <br>
 [Reinforcement learning with the A3C algorithm](https://cgnicholls.github.io/reinforcement-learning/2017/03/27/a3c.html)(A3C) <br>
 [A3C Blog Post](https://github.com/tensorflow/models/tree/a2a943da2635bfe93cd0c17a1d186f1f3235126c/research/a3c_blogpost) <br>
-[Deep Reinforcement Learning Doesn't Work Yet](https://www.alexirpan.com/2018/02/14/rl-hard.html) <br>
 [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html) <br>
 [李宏毅：Deep Reinforcement Learning](http://speech.ee.ntu.edu.tw/~tlkagk/courses/ML_2016/Lecture/RL%20(v6).pdf) <br>
 [DeepMind - Deep Reinforcement Learning - RLSS 2017.pdf](https://drive.google.com/file/d/0BzUSSMdMszk6UE5TbWdZekFXSE0/view)<br>
 [OpenAI Spinning up](https://spinningup.openai.com/en/latest/) 
+
+### Rethink
+[Deep reinforcement learning that matters](Deep Reinforcement Learning that Matters) <br>
+[Deep Reinforcement Learning Doesn't Work Yet](https://www.alexirpan.com/2018/02/14/rl-hard.html) <br>
+[Reinforcement Learning never worked, and 'deep' only helped a bit.](https://himanshusahni.github.io/2018/02/23/reinforcement-learning-never-worked.html) <br>
+[Lessons Learned Reproducing a Deep Reinforcement Learning Paper](http://amid.fish/reproducing-deep-rl) <br>
+[强化学习路在何方？](https://zhuanlan.zhihu.com/p/39999667) <br>
+
+### Overview
+[A Survey of Deep Network Solutions for Learning Control in Robotics: From Reinforcement to Imitation](https://arxiv.org/pdf/1612.07139.pdf) <br>
+[Multi-Agent Reinforcement Learning: A Report on Challenges and Approaches](https://arxiv.org/pdf/1807.09427.pdf) <br>
