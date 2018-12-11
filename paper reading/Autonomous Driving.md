@@ -20,3 +20,4 @@
 [End to end learning for self-driving cars](https://arxiv.org/pdf/1604.07316.pdf)(arxiv 2016, Nvidia) <br>
 [End-to-end driving via conditional imitation learning](https://arxiv.org/pdf/1710.02410.pdf)(ICRA 2018, Intel) <br>
 [Learning to Navigate in Cities Without a Map](https://arxiv.org/pdf/1804.00168.pdf)(arxiv 2018)<br>
+[ChauffeurNet:  Learning to Drive by Imitating the Best and Synthesizing the Worst](https://export.arxiv.org/pdf/1812.03079)(arxiv 2018, waymo) <br>
