@@ -108,7 +108,7 @@
 [强化学习路在何方？](https://zhuanlan.zhihu.com/p/39999667) <br>
 
 ### Evolution Strategy
-[Evolution Strategies as a Scalable Alternative to Reinforcement Learning](https://arxiv.org/pdf/1703.03864.pdf)([blog](https://blog.openai.com/evolution-strategies/), OpenAI 2017, ES，dvantages of not calculating gradients/ easy to parallelize/more robust(such as frame-skip) <br>
+[Evolution Strategies as a Scalable Alternative to Reinforcement Learning](https://arxiv.org/pdf/1703.03864.pdf)([blog](https://blog.openai.com/evolution-strategies/), OpenAI 2017, ES，dvantages of not calculating gradients/ easy to parallelize/more robust(such as frame-skip)) <br>
 [A Visual Guide to Evolution Strategies](http://blog.otoro.net/2017/10/29/visual-evolution-strategies/) <br>
 [Evolving Stable Strategies](http://blog.otoro.net/2017/11/12/evolving-stable-strategies/)(ES on robot; task augmentation techniques) <br>
 
