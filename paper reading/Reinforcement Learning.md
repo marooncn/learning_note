@@ -45,9 +45,10 @@
 
 ### Benchmark
 [gym](https://gym.openai.com/envs/)(OpenAI, big gays) <br>
+[Roboschool](https://blog.openai.com/roboschool/)(OpenAI 2017) <br>
 [gym Retro](https://blog.openai.com/gym-retro/)(OpenAI, game platform) <br>
 [Retro Contest](https://blog.openai.com/retro-contest/)(a transfer learning contest for generalization test) <br>
-[Roboschool](https://blog.openai.com/roboschool/)(OpenAI 2017) <br>
+[CoinRun](https://blog.openai.com/quantifying-generalization-in-reinforcement-learning/)(OpenAI 2018, provide a metric for an agent’s ability to transfer its experience to novel situations)
 [DeepMind Lab](https://github.com/deepmind/lab)(DeepMind 2016, first-person 3D game platform) <br>
 [Control Suite](https://github.com/deepmind/dm_control)(DeepMind 2018) <br>
 [Unity](https://unity3d.com/machine-learning/) <br>
