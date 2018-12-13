@@ -99,7 +99,9 @@
 [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html) <br>
 [李宏毅：Deep Reinforcement Learning](http://speech.ee.ntu.edu.tw/~tlkagk/courses/ML_2016/Lecture/RL%20(v6).pdf) <br>
 [DeepMind - Deep Reinforcement Learning - RLSS 2017.pdf](https://drive.google.com/file/d/0BzUSSMdMszk6UE5TbWdZekFXSE0/view)<br>
-[OpenAI Spinning up](https://spinningup.openai.com/en/latest/) 
+[OpenAI Spinning up](https://spinningup.openai.com/en/latest/)  <br>
+[AlphaGo Zero demystified](https://dylandjian.github.io/alphago-zero/) <br>
+[World Models applied to Sonic](https://dylandjian.github.io/world-models/) <br>
 
 ### Rethink
 [Deep reinforcement learning that matters](https://arxiv.org/pdf/1709.06560.pdf) <br>
