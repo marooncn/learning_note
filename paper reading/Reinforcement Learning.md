@@ -93,6 +93,7 @@
 [Build an AI to play Dino Run](https://blog.paperspace.com/dino-run/)(DQN) <br>
 [Using Deep Q-Learning in FIFA 18 to perfect the art of free-kicks](https://towardsdatascience.com/using-deep-q-learning-in-fifa-18-to-perfect-the-art-of-free-kicks-f2e4e979ee66)(DQN)<br>
 [Using Keras and Deep Deterministic Policy Gradient to play TORCS](https://yanpanlau.github.io/2016/10/11/Torcs-Keras.html)(DDPG) <br>
+[Self-driving cars in the browser](https://janhuenermann.com/blog/learning-to-drive)(DDPG) <br>
 [Use proximal policy optimization to play BipedalWalker and Torcs](https://junhongxu.github.io/JunhongXu.github.io/Proximal-Policy-Optimization/)(PPO) <br>
 [复现PPO](https://zhuanlan.zhihu.com/p/50322028) <br>
 [Simple Reinforcement Learning with Tensorflow Part 8](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-8-asynchronous-actor-critic-agents-a3c-c88f72a5e9f2)(A3C) <br>
