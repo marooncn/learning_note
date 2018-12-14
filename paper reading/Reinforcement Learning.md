@@ -42,8 +42,8 @@
 
 
 ### Reality Gap
-[Sim-to-Real: Learning Agile Locomotion For Quadruped Robots](https://arxiv.org/pdf/1804.10332.pdf)( "We  narrow  this  reality  gap  by  improving  the  physics simulator and learning robust policies.") <br>
-[Sim-to-Real Transfer of Robotic Control with Dynamics Randomization](https://xbpeng.github.io/projects/SimToReal/2018_SimToReal.pdf)(ICRA 2018,"By randomizing the dynamics of the simulator during training, we are able to develop policies that are capable of adapting to very different dynamics") <br>
+[Sim-to-Real: Learning Agile Locomotion For Quadruped Robots](https://arxiv.org/pdf/1804.10332.pdf)(arxiv 2018, Google, "We  narrow  this  reality  gap  by  improving  the  physics simulator and learning robust policies.") <br>
+[Sim-to-Real Transfer of Robotic Control with Dynamics Randomization](https://xbpeng.github.io/projects/SimToReal/2018_SimToReal.pdf)(ICRA 2018, "By randomizing the dynamics of the simulator during training, we are able to develop policies that are capable of adapting to very different dynamics") <br>
 
 ### Benchmark
 [gym](https://gym.openai.com/envs/)(OpenAI, big gays) <br>
