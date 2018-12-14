@@ -73,6 +73,10 @@
 [One-Shot Imitation from Observing Humans via Domain-Adaptive Meta-Learning](https://arxiv.org/pdf/1802.01557.pdf)([blog](https://bair.berkeley.edu/blog/2018/06/28/daml/), RSS 2018, One-Shot Imitation from Watching Videos without labeled expert actions) <br>
 [Grasp2Vec: Learning Object Representations from Self-Supervised Grasping](https://arxiv.org/pdf/1811.06964.pdf)(CoRL 2018, Google Brain) <br>
 
+### Character Skills
+[DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills](https://xbpeng.github.io/projects/DeepMimic/index.html)([blog](https://bair.berkeley.edu/blog/2018/04/10/virtual-stuntman/), ACM Transactions on Graphic 2018, Reference State Initialization (RSI)+Early Termination (ET)) <br> 
+[SFV: Reinforcement Learning of Physical Skills from Videos](https://xbpeng.github.io/projects/SFV/index.html)([blog](https://bair.berkeley.edu/blog/2018/10/09/sfv/)， ACM Transactions on Graphic 2018) <br>
+
 ### Computer Vision
 [Active Object Localization with Deep Reinforcement Learning](http://slazebni.cs.illinois.edu/publications/iccv15_active.pdf)(ICCV 2015)<br>
 [Hierarchical Object Detection with Deep Reinforcement Learning](https://imatge-upc.github.io/detection-2016-nipsws/)(NIPS 2016) <br>
