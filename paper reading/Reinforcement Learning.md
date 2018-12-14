@@ -69,6 +69,8 @@
 [Composable Deep Reinforcement Learning for Robotic Manipulation](https://lanl.arxiv.org/pdf/1803.06773v1)([blog](https://mp.weixin.qq.com/s?__biz=MzAxMzc2NDAxOQ==&mid=2650366547&idx=1&sn=5c75e5362e2951e68f0b2921e854f7db&chksm=8390568fb4e7df99601064e1bd6493250dcf9e058e2e64cd65e3e63f5c4843bae5b91583ce82&mpshare=1&scene=1&srcid=041005bm6qlvLmW563fbESQG&pass_ticket=NFFgROZS%2B2E12ics9enIgh0g9UP35ouHDe07%2FZfe5koayvAfbE5TgsaUjUrsXXLV#rd), Berkeley 2018, two strenghts of Soft Q-learning: multimodal exploration; composed) <br> 
 [One-Shot Visual Imitation Learning via Meta-Learning](https://arxiv.org/pdf/1709.04905.pdf)(CoRL 2017, combine imitation learning with MAML)  <br> 
 [One-Shot Imitation from Observing Humans via Domain-Adaptive Meta-Learning](https://arxiv.org/pdf/1802.01557.pdf)([blog](https://bair.berkeley.edu/blog/2018/06/28/daml/), RSS 2018, One-Shot Imitation from Watching Videos without labeled expert actions) <br>
+[Grasp2Vec: Learning Object Representations from Self-Supervised Grasping](https://arxiv.org/pdf/1811.06964.pdf)(CoRL 2018, Google Brain) <br>
+
 ### Computer Vision
 [Active Object Localization with Deep Reinforcement Learning](http://slazebni.cs.illinois.edu/publications/iccv15_active.pdf)(ICCV 2015)<br>
 [Hierarchical Object Detection with Deep Reinforcement Learning](https://imatge-upc.github.io/detection-2016-nipsws/)(NIPS 2016) <br>
