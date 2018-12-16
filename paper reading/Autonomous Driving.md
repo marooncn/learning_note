@@ -11,6 +11,8 @@
 [LISA](http://cvrr.ucsd.edu/LISA/datasets.html) <br>
 [KUL Belgium Traffic Sign dataset](http://www.vision.ee.ethz.ch/~timofter/traffic_signs/)(Traffic Sign Recognition) <br>
 [HDD](https://arxiv.org/pdf/1811.02307.pdf)(A Dataset for Learning Driver Behavior and Causal Reasoning, 本田, 教育邮箱发hdd@honda-ri.com索取) <br>
+#### a comparision from HDD
+<img alt="driving scene datasets" src="https://github.com/marooncn/learning_note/blob/master/paper%20reading/image/driving%20scene%20datasets.png" width="400"> <br>
 
 
 ### Simulator
