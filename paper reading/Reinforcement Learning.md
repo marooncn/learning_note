@@ -54,7 +54,9 @@
 [DeepMind Lab](https://github.com/deepmind/lab)(DeepMind 2016, first-person 3D game platform) <br>
 [Control Suite](https://github.com/deepmind/dm_control)(DeepMind 2018) <br>
 [Unity](https://unity3d.com/machine-learning/) <br>
-[pybullet](https://pypi.org/project/pybullet/) <br>
+[pybullet](https://pypi.org/project/pybullet/) 
+#### Navigation Simulation Environment, from [AI2-THOR](http://ai2thor.allenai.org/) 
+<img alt="simulation framework" src="https://github.com/marooncn/learning_note/blob/master/paper%20reading/image/simulation%20framework.png" width="400"> <br>
 
 ### Implementations
 [OpenAI Baselines](https://github.com/openai/baselines)(OpenAI) <br>
