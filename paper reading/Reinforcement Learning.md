@@ -28,6 +28,10 @@
 [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://bair.berkeley.edu/blog/2017/07/18/learning-to-learn/)(ICML 2017, MAML) <br>
 [Reptile: A Scalable Meta-Learning Algorithm](https://blog.openai.com/reptile/)(OpenAI 2018, Retile)
 
+### Curriculum learning
+[Curriculum learning](https://ronan.collobert.com/pub/matos/2009_curriculum_icml.pdf)(ACM 2009, Curriculum learning gradually increases the complexity of the learning task by choosing more and more difficult examples for the learning algorith) <br>
+[Automated Curriculum Learning for Neural Networks](http://proceedings.mlr.press/v70/graves17a/graves17a.pdf) <br>
+
 
 ### Curiosity & Exploration & Reward Shaping
 #### With sparse external reward
