@@ -16,6 +16,7 @@
 [Proximal Policy Optimization Algorithms](https://arxiv.org/pdf/1707.06347.pdf)(arxiv 2017, OpenAI PPO)<br>
 [Emergence of Locomotion Behaviours in Rich Environments](https://arxiv.org/pdf/1707.02286.pdf) (arxiv 2017, DeepMind PPO)<br>
 [Reinforcement learning with Deep Energy-Based Polices](https://arxiv.org/pdf/1702.08165.pdf)([blog](https://bair.berkeley.edu/blog/2017/10/06/soft-q-learning/), ICML 2017, Soft Q-learning) <br>
+[Soft Actor-Critic Algorithms and Applications](https://arxiv.org/pdf/1812.05905.pdf)(arxiv 2018, Soft Actor-Critic) <br>
 [A Distributional Perspective on Reinforcement Learning](https://deepmind.com/blog/going-beyond-average-reinforcement-learning/)(ICML 2017, Distributional RL, C51) <br>
 [Meta-Learning Shared Hierarchies](https://arxiv.org/pdf/1710.09767.pdf)([blog](https://blog.openai.com/learning-a-hierarchy/), OpenAI 2017, Hierarchical RL) <br>
 [Rainbow: Combining improvements in deep reinforcement learning](https://arxiv.org/pdf/1710.02298.pdf)(AAAI 2018, Rainbow)<br>
@@ -69,6 +70,7 @@
 [TensorForce](https://github.com/reinforceio/tensorforce)(reinforce.io)  <br>
 [Dopamine](https://github.com/google/dopamine)(Google) <br>
 [Coach](https://github.com/NervanaSystems/coach)(Intel)  <br>
+[rlkit](https://github.com/vitchyr/rlkit)(personal) <br>
 
 ### Manipulation
 [Reinforcement and Imitation Learning for Diverse Visuomotor Skills](https://arxiv.org/pdf/1802.09564.pdf)([blog](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650739530&idx=4&sn=4b08a6f9253473da9ae2396ca78fae05&chksm=871ad734b06d5e22256df7c21d56d3ecace4170866f7868fcd252daf2848b7f56a890bc04c78&mpshare=1&scene=1&srcid=0319nOHWy1wXHfKTqEm3wXgd&pass_ticket=NFFgROZS%2B2E12ics9enIgh0g9UP35ouHDe07%2FZfe5koayvAfbE5TgsaUjUrsXXLV#rd),DeepMind 2018, few demostrations+PPO+LSTM+GAIL) <br>
