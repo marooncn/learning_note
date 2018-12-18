@@ -60,7 +60,7 @@
 [Control Suite](https://github.com/deepmind/dm_control)(DeepMind 2018) <br>
 [Unity](https://unity3d.com/machine-learning/) <br>
 [pybullet](https://pypi.org/project/pybullet/) 
-
+[Pommerman](https://www.pommerman.com/)(Multi-Agent "Bomberman"-like game) <br>
 
 ### Implementations
 [OpenAI Baselines](https://github.com/openai/baselines)(OpenAI) <br>
