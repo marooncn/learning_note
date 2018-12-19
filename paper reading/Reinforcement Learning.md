@@ -123,7 +123,7 @@
 [Deep reinforcement learning that matters](https://arxiv.org/pdf/1709.06560.pdf) <br>
 [Deep Reinforcement Learning Doesn't Work Yet](https://www.alexirpan.com/2018/02/14/rl-hard.html) <br>
 [Reinforcement Learning never worked, and 'deep' only helped a bit.](https://himanshusahni.github.io/2018/02/23/reinforcement-learning-never-worked.html) <br>
-[Lessons Learned Reproducing a Deep Reinforcement Learning Paper](http://amid.fish/reproducing-deep-rl) <br>
+[Lessons Learned Reproducing a Deep Reinforcement Learning Paper](http://amid.fish/reproducing-deep-rl)([notes](https://github.com/marooncn/learning_note/blob/master/paper%20reading/notes/Lessons%20Learned%20Reproducing%20a%20Deep%20Reinforcement%20Learning%20Paper.pdf) <br>
 [强化学习路在何方？](https://zhuanlan.zhihu.com/p/39999667) <br>
 
 ### Evolution Strategy
