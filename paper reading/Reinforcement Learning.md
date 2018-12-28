@@ -46,7 +46,7 @@
 [Large-Scale Study of Curiosity-Driven Learning](https://pathak22.github.io/large-scale-curiosity/)(OpenAI 2018, Curiosity-driven Learning)  <br>
 
 
-### Reality Gap
+### Reality Gap 
 [Sim-to-Real: Learning Agile Locomotion For Quadruped Robots](https://arxiv.org/pdf/1804.10332.pdf)(arxiv 2018, Google, "We  narrow  this  reality  gap  by  improving  the  physics simulator and learning robust policies.") <br>
 [Sim-to-Real Transfer of Robotic Control with Dynamics Randomization](https://xbpeng.github.io/projects/SimToReal/2018_SimToReal.pdf)(ICRA 2018, "By randomizing the dynamics of the simulator during training, we are able to develop policies that are capable of adapting to very different dynamics") <br>
 
@@ -71,6 +71,7 @@
 [Dopamine](https://github.com/google/dopamine)(Google) <br>
 [Coach](https://github.com/NervanaSystems/coach)(Intel)  <br>
 [rlkit](https://github.com/vitchyr/rlkit)(personal) <br>
+<img alt="RL framework" src="https://github.com/marooncn/learning_note/blob/master/paper%20reading/image/RL%20framework.PNG" width="600"> <br>
 
 ### Manipulation
 [Reinforcement and Imitation Learning for Diverse Visuomotor Skills](https://arxiv.org/pdf/1802.09564.pdf)([blog](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650739530&idx=4&sn=4b08a6f9253473da9ae2396ca78fae05&chksm=871ad734b06d5e22256df7c21d56d3ecace4170866f7868fcd252daf2848b7f56a890bc04c78&mpshare=1&scene=1&srcid=0319nOHWy1wXHfKTqEm3wXgd&pass_ticket=NFFgROZS%2B2E12ics9enIgh0g9UP35ouHDe07%2FZfe5koayvAfbE5TgsaUjUrsXXLV#rd),DeepMind 2018, few demostrations+PPO+LSTM+GAIL) <br>
