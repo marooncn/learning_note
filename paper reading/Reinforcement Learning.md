@@ -64,6 +64,7 @@
 
 ### Implementations
 [OpenAI Baselines](https://github.com/openai/baselines)(OpenAI) <br>
+[keras-rl](https://github.com/keras-rl/keras-rl])(keras) <br>
 [rllab](https://rllab.readthedocs.io/en/latest/index.html#)(Berkeley) <br>
 [RLlib](https://ray.readthedocs.io/en/latest/rllib.html)(Berkeley, multi-agent) <br>
 [Horizon](https://github.com/facebookresearch/Horizon)(Facebook)  <br>
