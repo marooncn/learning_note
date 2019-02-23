@@ -23,6 +23,7 @@
 [Multi-task Deep Reinforcement Learning with PopArt](https://deepmind.com/blog/preserving-outputs-precisely-while-adaptively-rescaling-targets/)(PopArt, train a single agent that can play a whole set of 57 diverse Atari video games with reward signal normalization) <br>
 [Neural scene representation and rendering](http://science.sciencemag.org/content/360/6394/1204/tab-pdf)([blog](https://deepmind.com/blog/neural-scene-representation-and-rendering/), Science 2018, Generative Query Network (GQN)) <br>
 [World Models](https://arxiv.org/pdf/1803.10122.pdf)([blog](https://dylandjian.github.io/world-models/), NIPS 2018, World Models=Vison model([VAE](http://kvfrans.com/variational-autoencoders-explained/))+Memory(RNN+[MDN](http://blog.otoro.net/2015/11/24/mixture-density-networks-with-tensorflow/))+Compact Controller(CMA-ES) <br>
+[Learning Latent Dynamics for Planning from Pixels](https://planetrl.github.io/)(PlaNet, Google 2019) <br>
 
 ### Meta-Learning
 [Learning to reinforcement learn](https://arxiv.org/pdf/1611.05763.pdf)(DeepMind 2017) <br>
