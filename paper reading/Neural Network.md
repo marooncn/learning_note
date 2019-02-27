@@ -9,6 +9,10 @@
 [Neural Network Intelligence](https://github.com/Microsoft/nni)(NNI, microsoft) <br>
 [AdaNet](https://github.com/tensorflow/adanet)(Google)
 
+### Optimizer
+[Adaptive Gradient Methods with Dynamic Bound of Learning Rate](https://openreview.net/pdf?id=Bkg3g2R9FX)(AdaBound, Fast as Adam and good as SGD, [pytorch realization](https://github.com/Luolc/AdaBound), [Keras realization](https://github.com/titu1994/keras-adabound))
+
+
 ### License Plate Recognition
 [EasyPR](https://github.com/liuruoze/EasyPR)(图像处理(滤波、阈值化、漫水填充、初步筛选）-> SVM车牌判别 -> 字符分割 -> ANN识别字符) <br>
 [ALPR](https://github.com/sergiomsilva/alpr-unconstrained)(YOLOv2车辆检测 -> WPOD-NET 车牌检测与校正 -> OCR-NET 车牌字符识别)
