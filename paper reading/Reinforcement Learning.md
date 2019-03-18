@@ -1,7 +1,7 @@
 ## Reinforcement Learning
 ### Algorithm
 [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1312.5602.pdf)(NIPS 2013, Deep Q-learning with Experience Replay ) <br>
-[DeterministicPolicyGradientAlgorithms](http://proceedings.mlr.press/v32/silver14.pdf)(ICML 2014, DPG) <br>
+[Deterministic Policy Gradient Algorithms](http://proceedings.mlr.press/v32/silver14.pdf)(ICML 2014, DPG) <br>
 [Human-level control through deep reinforcement learning](https://www.nature.com/articles/nature14236.pdf)(Nature 2015, traget Q-network)<br>
 [Deep Reinforcement Learning with Double Q-learning](https://pdfs.semanticscholar.org/3b97/32bb07dc99bde5e1f9f75251c6ea5039373e.pdf)(AAAI 2016, Double DQN) <br>
 [Prioritized Experience Replay](https://arxiv.org/pdf/1511.05952.pdf)(ICLR 2016, Prioritized replay)<br>
