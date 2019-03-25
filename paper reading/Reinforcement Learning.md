@@ -47,6 +47,7 @@
 [Deep reinforcement learning from human preferences](https://arxiv.org/pdf/1706.03741.pdf)([blog](https://blog.openai.com/deep-reinforcement-learning-from-human-preferences/), arxiv 2017, Just need 900 bits of feedback from a human evaluator to learn to backflip — a seemingly simple task which is simple to judge but challenging to specify.) <br>
 [Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play](https://cims.nyu.edu/~sainbar/selfplay/)(ICLR 2018, Self-play: Alice and Bob) <br>
 [Large-Scale Study of Curiosity-Driven Learning](https://pathak22.github.io/large-scale-curiosity/)(OpenAI 2018, Curiosity-driven Learning)  <br>
+[Episodic curiosity through reachability](https://arxiv.org/pdf/1810.02274.pdf)([code](https://github.com/google-research/episodic-curiosity), Google Brain & DeepMIind 2018)
 
 
 ### Reality Gap 
