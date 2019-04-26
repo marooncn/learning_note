@@ -29,3 +29,4 @@
 [Learning  to  Drive  in  a  Day](https://arxiv.org/pdf/1807.00412.pdf)([blog](https://wayve.ai/blog/learning-to-drive-in-a-day-with-reinforcement-learning), arxiv 2018, Wayve) <br>
 [Flow: Architecture and Benchmarking for Reinforcement Learning in Traffic Control](https://arxiv.org/pdf/1710.05465.pdf)([blog](https://flow-project.github.io/), CoRL 2018, UC Berkerly) <br>
 [ChauffeurNet:  Learning to Drive by Imitating the Best and Synthesizing the Worst](https://export.arxiv.org/pdf/1812.03079)(arxiv 2018, waymo) <br>
+[Latent Space Reinforcement Learning for Steering Angle Prediction](https://arxiv.org/pdf/1902.03765.pdf)(arxiv 2019) <br>
