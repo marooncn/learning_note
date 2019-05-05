@@ -24,9 +24,10 @@
 
 ### Paper
 [End to end learning for self-driving cars](https://arxiv.org/pdf/1604.07316.pdf)(arxiv 2016, Nvidia) <br>
-[End-to-end driving via conditional imitation learning](https://arxiv.org/pdf/1710.02410.pdf)(ICRA 2018, Intel) <br>
+[End-to-end driving via conditional imitation learning](https://github.com/marooncn/learning_note/blob/master/paper%20reading/notes/End-to-end%20Driving%20via%20Conditional%20Imitation%20Learning.pdf)(ICRA 2018, Intel) <br>
 [Learning to Navigate in Cities Without a Map](https://arxiv.org/pdf/1804.00168.pdf)(arxiv 2018, DeepMind)<br>
-[Learning  to  Drive  in  a  Day](https://arxiv.org/pdf/1807.00412.pdf)([blog](https://wayve.ai/blog/learning-to-drive-in-a-day-with-reinforcement-learning), arxiv 2018, Wayve) <br>
+[Learning  to  Drive  in  a  Day](https://github.com/marooncn/learning_note/blob/master/paper%20reading/notes/Learning%20to%20drive%20in%20a%20day.pdf)([blog](https://wayve.ai/blog/learning-to-drive-in-a-day-with-reinforcement-learning), Wayve 2018) <br>
+[Learning to Drive from Simulation without Real World Labels](https://github.com/marooncn/learning_note/blob/master/paper%20reading/notes/Learning%20to%20Drive%20from%20Simulation%20without%20Real%20World%20Labels.pdf)([blog](https://wayve.ai/blog/sim2real), [UNIT](https://github.com/marooncn/learning_note/blob/master/paper%20reading/notes/Unsupervised%20Image-to-Image%20Translation%20Networks.pdf), Wayve 2018) <br>
 [Flow: Architecture and Benchmarking for Reinforcement Learning in Traffic Control](https://arxiv.org/pdf/1710.05465.pdf)([blog](https://flow-project.github.io/), CoRL 2018, UC Berkerly) <br>
 [ChauffeurNet:  Learning to Drive by Imitating the Best and Synthesizing the Worst](https://export.arxiv.org/pdf/1812.03079)(arxiv 2018, waymo) <br>
 [On Offline Evaluation of Vision-based Driving Models](https://arxiv.org/pdf/1809.04843.pdf)(arxiv 2018) <br>
