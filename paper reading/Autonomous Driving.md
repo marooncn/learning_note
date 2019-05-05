@@ -23,7 +23,7 @@
 [Worldview](https://cruise-automation.github.io/webviz/worldview/#/)(Cruise) <br>
 
 ### Paper
-[End to end learning for self-driving cars](https://arxiv.org/pdf/1604.07316.pdf)(arxiv 2016, Nvidia) <br>
+[End to end learning for self-driving cars](https://github.com/marooncn/learning_note/blob/master/paper%20reading/notes/End%20to%20End%20Learning%20for%20Self-Driving%20Cars.pdf)([code](https://github.com/navoshta/behavioral-cloning)& [Zhihu](https://zhuanlan.zhihu.com/p/60625133), arxiv 2016, Nvidia) <br>
 [End-to-end driving via conditional imitation learning](https://github.com/marooncn/learning_note/blob/master/paper%20reading/notes/End-to-end%20Driving%20via%20Conditional%20Imitation%20Learning.pdf)(ICRA 2018, Intel) <br>
 [Learning to Navigate in Cities Without a Map](https://arxiv.org/pdf/1804.00168.pdf)(arxiv 2018, DeepMind)<br>
 [Learning  to  Drive  in  a  Day](https://github.com/marooncn/learning_note/blob/master/paper%20reading/notes/Learning%20to%20drive%20in%20a%20day.pdf)([blog](https://wayve.ai/blog/learning-to-drive-in-a-day-with-reinforcement-learning), Wayve 2018) <br>
