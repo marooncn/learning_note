@@ -31,6 +31,7 @@
 [Flow: Architecture and Benchmarking for Reinforcement Learning in Traffic Control](https://arxiv.org/pdf/1710.05465.pdf)([blog](https://flow-project.github.io/), CoRL 2018, UC Berkerly) <br>
 [ChauffeurNet:  Learning to Drive by Imitating the Best and Synthesizing the Worst](https://export.arxiv.org/pdf/1812.03079)(arxiv 2018, waymo) <br>
 [On Offline Evaluation of Vision-based Driving Models](https://arxiv.org/pdf/1809.04843.pdf)(arxiv 2018) <br>
+[Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving](https://arxiv.org/pdf/1812.07179.pdf)(arxiv 2018, Cornell) <br>
 [Latent Space Reinforcement Learning for Steering Angle Prediction](https://arxiv.org/pdf/1902.03765.pdf)(arxiv 2019) <br>
 [Exploring the Limitations of Behavior Cloning for Autonomous Driving](https://arxiv.org/pdf/1904.08980.pdf)(arxiv 2019) <br>
 
