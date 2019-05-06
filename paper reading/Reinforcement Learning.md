@@ -107,6 +107,14 @@
 ### Video
 [Neural Adaptive Video Streaming with Pensieve](http://web.mit.edu/pensieve/)(ACM 2017) <br>
 
+### Legged locomotion
+[Learning agile and dynamic motor skills for legged robots](https://arxiv.org/pdf/1901.08652.pdf)(Science Robotics 2019, ETH. train >2000 ANYmals in real time in simulation platform together; train a NN representing the complex dynamics with data from the real robot, so the trained policy can be directly deployed on the real system without any modification.) <br>
+[Iterative Reinforcement Learning Based Design of Dynamic Locomotion Skills for Cassie](https://arxiv.org/pdf/1903.09537.pdf)(arxiv 2019)
+
+### Perception
+Manipulation by Feel: Touch-Based Control with Deep Predictive Models(https://arxiv.org/pdf/1903.04128.pdf)(arxiv 2019, Berkeley, Haptic sensor)
+Motion Perception in Reinforcement Learning with Dynamic Objects(https://lmb.informatik.uni-freiburg.de/projects/flowrl/)(arxiv 2019, image + flow rather than stacked images to include motion information) <br>
+
 ### Good Blog & Tutorial
 [Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/)(Policy Gradient) <br>
 [Using Keras and Deep Q-Network to Play FlappyBird](https://yanpanlau.github.io/2016/07/10/FlappyBird-Keras.html)(DQN) <br>
