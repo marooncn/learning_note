@@ -112,8 +112,11 @@
 [Iterative Reinforcement Learning Based Design of Dynamic Locomotion Skills for Cassie](https://arxiv.org/pdf/1903.09537.pdf)(arxiv 2019)
 
 ### Perception
-Manipulation by Feel: Touch-Based Control with Deep Predictive Models(https://arxiv.org/pdf/1903.04128.pdf)(arxiv 2019, Berkeley, Haptic sensor)
-Motion Perception in Reinforcement Learning with Dynamic Objects(https://lmb.informatik.uni-freiburg.de/projects/flowrl/)(arxiv 2019, image + flow rather than stacked images to include motion information) <br>
+[Manipulation by Feel: Touch-Based Control with Deep Predictive Models](https://arxiv.org/pdf/1903.04128.pdf)(arxiv 2019, Berkeley, Haptic sensor)
+[Motion Perception in Reinforcement Learning with Dynamic Objects](https://lmb.informatik.uni-freiburg.de/projects/flowrl/)(arxiv 2019, image + flow rather than stacked images to include motion information) <br>
+
+### Others
+[Hacking Google reCAPTCHA v3 using Reinforcement Learning](https://arxiv.org/pdf/1903.01003.pdf)(arxiv 2019, Paword cracking) <br>
 
 ### Good Blog & Tutorial
 [Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/)(Policy Gradient) <br>
