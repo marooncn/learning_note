@@ -21,6 +21,7 @@
 [Apollo](http://apollo.auto/)(Baidu Apollo) <br>
 [AVS](https://avs.auto/#/)(Uber AVS(autonomous Visualization System)) <br>
 [Worldview](https://cruise-automation.github.io/webviz/worldview/#/)(Cruise) <br>
+[AADS: Augmented antonomous driving simulation using data-driven algorithms](https://arxiv.org/ftp/arxiv/papers/1901/1901.07849.pdf)(Baidu Apollo, Science Robotics 2019) <br>
 
 ### Paper
 [End to end learning for self-driving cars](https://github.com/marooncn/learning_note/blob/master/paper%20reading/notes/End%20to%20End%20Learning%20for%20Self-Driving%20Cars.pdf)([code](https://github.com/navoshta/behavioral-cloning)& [Zhihu](https://zhuanlan.zhihu.com/p/60625133), arxiv 2016, Nvidia) <br>
