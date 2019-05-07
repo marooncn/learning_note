@@ -42,13 +42,13 @@
 [Reinforcement Learning with Unsupervised Auxiliary Tasks](https://arxiv.org/pdf/1611.05397.pdf)(DeepMind 2016, UNREAL) <br>
 [Curiosity-driven exploration by self-supervised prediction](https://arxiv.org/pdf/1705.05363.pdf)(ICML 2017, Intrinsic Curiosity Module) <br>
 [Exploration by Random Network Distillation](https://arxiv.org/pdf/1810.12894.pdf)([blog](https://blog.openai.com/reinforcement-learning-with-prediction-based-rewards/#RNDjump), RND, exceed average human performance on Montezuma’s Revenge) 
-[Episodic curiosity through reachability](https://arxiv.org/pdf/1810.02274.pdf)([code](https://github.com/google-research/episodic-curiosity), Google Brain & DeepMind 2018)
+[Episodic curiosity through reachability](https://arxiv.org/pdf/1810.02274.pdf)([code](https://github.com/google-research/episodic-curiosity), Google Brain & DeepMind 2019, maximize curiosity only if is conducive to the ultimate goal)
 #### Even without external reward
 [Apprenticeship learning via Inverse Reinforcement Learning](http://ai.stanford.edu/~ang/papers/icml04-apprentice.pdf)(ICML 2004, Inverse Imitation Learning) <br>
 [Deep reinforcement learning from human preferences](https://arxiv.org/pdf/1706.03741.pdf)([blog](https://blog.openai.com/deep-reinforcement-learning-from-human-preferences/), arxiv 2017, Just need 900 bits of feedback from a human evaluator to learn to backflip — a seemingly simple task which is simple to judge but challenging to specify.) <br>
 [Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play](https://cims.nyu.edu/~sainbar/selfplay/)(ICLR 2018, Self-play: Alice and Bob) <br>
 [Large-Scale Study of Curiosity-Driven Learning](https://pathak22.github.io/large-scale-curiosity/)(OpenAI 2018, Curiosity-driven Learning)  <br>
-[End-to-End Robotic Reinforcement Learning without Reward Engineering](https://arxiv.org/pdf/1904.07854.pdf)([code](https://github.com/avisingh599/reward-learning-rl), RSS 2019, Berkeley, using successful outcome images(80) to train a success classifier, then use log-probabilities obtained from the success classifier as reward for running reinforcement learning and actively query(75) the human user to optimize the success classifier) <br>
+[End-to-End Robotic Reinforcement Learning without Reward Engineering](https://arxiv.org/pdf/1904.07854.pdf)([code](https://github.com/avisingh599/reward-learning-rl), RSS 2019, Berkeley, using successful outcome images to train a success classifier, then use log-probabilities obtained from the success classifier as reward for running reinforcement learning and actively query the human user to optimize the success classifier) <br>
 
 ### Reality Gap 
 [Sim-to-Real: Learning Agile Locomotion For Quadruped Robots](https://arxiv.org/pdf/1804.10332.pdf)(arxiv 2018, Google, "We  narrow  this  reality  gap  by  improving  the  physics simulator and learning robust policies.") <br>
