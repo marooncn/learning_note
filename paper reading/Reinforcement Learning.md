@@ -47,7 +47,8 @@
 [Apprenticeship learning via Inverse Reinforcement Learning](http://ai.stanford.edu/~ang/papers/icml04-apprentice.pdf)(ICML 2004, Inverse Imitation Learning) <br>
 [Deep reinforcement learning from human preferences](https://arxiv.org/pdf/1706.03741.pdf)([blog](https://blog.openai.com/deep-reinforcement-learning-from-human-preferences/), arxiv 2017, Just need 900 bits of feedback from a human evaluator to learn to backflip — a seemingly simple task which is simple to judge but challenging to specify.) <br>
 [Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play](https://cims.nyu.edu/~sainbar/selfplay/)(ICLR 2018, Self-play: Alice and Bob) <br>
-[Large-Scale Study of Curiosity-Driven Learning](https://pathak22.github.io/large-scale-curiosity/)(OpenAI 2018, Curiosity-driven Learning)  <br>
+[Large-Scale Study of Curiosity-Driven Learning](https://github.com/marooncn/learning_note/blob/master/paper%20reading/notes/Large-Scale%20Study%20of%20Curiosity-Driven%20Learning.pdf)([website](https://pathak22.github.io/large-scale-curiosity/), OpenAI 2018, "More generally, these results suggest that, in environments designed by humans, the extrinsic reward
+is perhaps often aligned with the objective of seeking novelty.")  <br>
 [End-to-End Robotic Reinforcement Learning without Reward Engineering](https://arxiv.org/pdf/1904.07854.pdf)([code](https://github.com/avisingh599/reward-learning-rl), RSS 2019, Berkeley, using successful outcome images to train a success classifier, then use log-probabilities obtained from the success classifier as reward for running reinforcement learning and actively query the human user to optimize the success classifier) <br>
 
 ### Reality Gap 
