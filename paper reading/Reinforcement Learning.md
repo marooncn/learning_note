@@ -78,6 +78,7 @@ is perhaps often aligned with the objective of seeking novelty.")  <br>
 [Coach](https://github.com/NervanaSystems/coach)(Intel)  <br>
 [rlkit](https://github.com/vitchyr/rlkit)(personal) <br>
 [TRFL](https://github.com/deepmind/trfl)(DeepMind) <br>
+[Catalyst.RL](https://github.com/catalyst-team/catalyst-rl-framework)(catalyst-team) <br>
 <img alt="RL framework" src="https://github.com/marooncn/learning_note/blob/master/paper%20reading/image/RL%20framework.PNG" width="600"> <br>
 
 ### Manipulation
