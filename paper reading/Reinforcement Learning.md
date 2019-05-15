@@ -50,6 +50,8 @@
 [Large-Scale Study of Curiosity-Driven Learning](https://github.com/marooncn/learning_note/blob/master/paper%20reading/notes/Large-Scale%20Study%20of%20Curiosity-Driven%20Learning.pdf)([website](https://pathak22.github.io/large-scale-curiosity/), OpenAI 2018, "More generally, these results suggest that, in environments designed by humans, the extrinsic reward
 is perhaps often aligned with the objective of seeking novelty.")  <br>
 [End-to-End Robotic Reinforcement Learning without Reward Engineering](https://arxiv.org/pdf/1904.07854.pdf)([code](https://github.com/avisingh599/reward-learning-rl), RSS 2019, Berkeley, using successful outcome images to train a success classifier, then use log-probabilities obtained from the success classifier as reward for running reinforcement learning and actively query the human user to optimize the success classifier) <br>
+#### Others
+[Visceral Machines: Risk-Aversion in Reinforcement Learning with Intrinsic Physiological Rewards](https://arxiv.org/pdf/1805.09975v2.pdf)(ICLR 2019, just train a CNN to predict response as intrinsic reward in navigation task) <br>
 
 ### Reality Gap 
 [Sim-to-Real: Learning Agile Locomotion For Quadruped Robots](https://arxiv.org/pdf/1804.10332.pdf)(arxiv 2018, Google, "We  narrow  this  reality  gap  by  improving  the  physics simulator and learning robust policies.") <br>
