@@ -37,4 +37,5 @@
 [Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving](https://arxiv.org/pdf/1812.07179.pdf)(arxiv 2018, Cornell) <br>
 [Latent Space Reinforcement Learning for Steering Angle Prediction](https://arxiv.org/pdf/1902.03765.pdf)(arxiv 2019) <br>
 [Exploring the Limitations of Behavior Cloning for Autonomous Driving](https://arxiv.org/pdf/1904.08980.pdf)(arxiv 2019) <br>
+[Safe Reinforcement Learning on Autonomous Vehicles](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8593420)(IROS 2018, use prediction model to add masking mechanism to DRL action output to prevent dangerous action.) <br>
 
