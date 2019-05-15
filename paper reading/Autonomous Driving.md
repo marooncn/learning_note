@@ -24,18 +24,25 @@
 [AADS: Augmented antonomous driving simulation using data-driven algorithms](https://arxiv.org/ftp/arxiv/papers/1901/1901.07849.pdf)(Baidu Apollo, Science Robotics 2019) <br>
 
 ### Paper
+### Perception
+[Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving](https://arxiv.org/pdf/1812.07179.pdf)(arxiv 2018, Cornell) <br>
+[LaserNet: An Efficient Probabilistic 3D Object Detector for Autonomous Driving](https://arxiv.org/pdf/1903.08701.pdf)(arxiv 2019) <br>
+
+### Decision & Control
 [End to end learning for self-driving cars](https://github.com/marooncn/learning_note/blob/master/paper%20reading/notes/End%20to%20End%20Learning%20for%20Self-Driving%20Cars.pdf)([code](https://github.com/navoshta/behavioral-cloning)& [Zhihu](https://zhuanlan.zhihu.com/p/60625133), arxiv 2016, Nvidia) <br>
 [End-to-end driving via conditional imitation learning](https://github.com/marooncn/learning_note/blob/master/paper%20reading/notes/End-to-end%20Driving%20via%20Conditional%20Imitation%20Learning.pdf)(ICRA 2018, Intel) <br>
 [Learning to Navigate in Cities Without a Map](https://arxiv.org/pdf/1804.00168.pdf)(arxiv 2018, DeepMind)<br>
 [Learning  to  Drive  in  a  Day](https://github.com/marooncn/learning_note/blob/master/paper%20reading/notes/Learning%20to%20drive%20in%20a%20day.pdf)([blog](https://wayve.ai/blog/learning-to-drive-in-a-day-with-reinforcement-learning), Wayve 2018) <br>
 [Learning to Drive from Simulation without Real World Labels](https://github.com/marooncn/learning_note/blob/master/paper%20reading/notes/Learning%20to%20Drive%20from%20Simulation%20without%20Real%20World%20Labels.pdf)([blog](https://wayve.ai/blog/sim2real), [UNIT](https://github.com/marooncn/learning_note/blob/master/paper%20reading/notes/Unsupervised%20Image-to-Image%20Translation%20Networks.pdf), Wayve 2018, Translate images from real environment to simulation to make decision) <br>
 [Virtual to Real Reinforcement Learning for Autonomous Driving](https://arxiv.org/pdf/1704.03952v4.pdf)(arxiv 2017, Virtual to Real Image Translation to train RL network) <br>
-[Flow: Architecture and Benchmarking for Reinforcement Learning in Traffic Control](https://arxiv.org/pdf/1710.05465.pdf)([blog](https://flow-project.github.io/), CoRL 2018, UC Berkerly) <br>
 [ChauffeurNet:  Learning to Drive by Imitating the Best and Synthesizing the Worst](https://export.arxiv.org/pdf/1812.03079)(arxiv 2018, waymo) <br>
-[On Offline Evaluation of Vision-based Driving Models](https://arxiv.org/pdf/1809.04843.pdf)(arxiv 2018) <br>
 [Zero-shot Deep Reinforcement Learning Driving Policy Transfer for Autonomous Vehicles based on Robust Control](https://arxiv.org/pdf/1812.03216.pdf)(ITSC 2018) <br>
-[Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving](https://arxiv.org/pdf/1812.07179.pdf)(arxiv 2018, Cornell) <br>
 [Latent Space Reinforcement Learning for Steering Angle Prediction](https://arxiv.org/pdf/1902.03765.pdf)(arxiv 2019) <br>
-[Exploring the Limitations of Behavior Cloning for Autonomous Driving](https://arxiv.org/pdf/1904.08980.pdf)(arxiv 2019) <br>
 [Safe Reinforcement Learning on Autonomous Vehicles](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8593420)(IROS 2018, use prediction model to add masking mechanism to DRL action output to prevent dangerous action.) <br>
 
+### Evalution
+[On Offline Evaluation of Vision-based Driving Models](https://arxiv.org/pdf/1809.04843.pdf)(arxiv 2018) <br>
+[Exploring the Limitations of Behavior Cloning for Autonomous Driving](https://arxiv.org/pdf/1904.08980.pdf)(arxiv 2019) <br>
+
+### Transport
+[Flow: Architecture and Benchmarking for Reinforcement Learning in Traffic Control](https://arxiv.org/pdf/1710.05465.pdf)([blog](https://flow-project.github.io/), CoRL 2018, UC Berkerly) <br>
