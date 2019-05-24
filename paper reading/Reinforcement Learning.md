@@ -56,6 +56,11 @@ is perhaps often aligned with the objective of seeking novelty.")  <br>
 ### Reality Gap 
 [Sim-to-Real: Learning Agile Locomotion For Quadruped Robots](https://arxiv.org/pdf/1804.10332.pdf)(arxiv 2018, Google, "We  narrow  this  reality  gap  by  improving  the  physics simulator and learning robust policies.") <br>
 [Sim-to-Real Transfer of Robotic Control with Dynamics Randomization](https://xbpeng.github.io/projects/SimToReal/2018_SimToReal.pdf)(ICRA 2018, "By randomizing the dynamics of the simulator during training, we are able to develop policies that are capable of adapting to very different dynamics") <br>
+[Closing the Sim-to-Real Loop: Adapting Simulation Randomization with Real World Experience](https://arxiv.org/pdf/1810.05687.pdf)(ICRA 2019, "Rather than manually tuning the randomization of simulations, we adapt the simulation parameter distribution using a few real world roll-outs interleaved with policy training") <br>
+
+### Other issue
+#### Discrete-Continuous Hybrid Action Spaces
+[Deep Multi-Agent Reinforcement Learning with Discrete-Continuous Hybrid Action Spaces](https://arxiv.org/pdf/1903.04959.pdf)(IJCAI 2019) <br>
 
 ### Benchmark
 [gym](https://gym.openai.com/envs/)(OpenAI, big gays) <br>
@@ -99,6 +104,7 @@ is perhaps often aligned with the objective of seeking novelty.")  <br>
 [Active Object Localization with Deep Reinforcement Learning](http://slazebni.cs.illinois.edu/publications/iccv15_active.pdf)(ICCV 2015)<br>
 [Hierarchical Object Detection with Deep Reinforcement Learning](https://imatge-upc.github.io/detection-2016-nipsws/)(NIPS 2016) <br>
 [Crafting a Toolchain for Image Restoration by Deep Reinforcement Learning](http://mmlab.ie.cuhk.edu.hk/projects/RL-Restore/)(CVPR 2018) <br>
+[Emergence of exploratory look-around behaviors through active observation completion](https://robotics.sciencemag.org/content/4/30/eaaw6326/tab-pdf)(Science Robotics 2019) <br>
 
 ### Doom
 [ViZDoom: A Doom-based AI Research Platform for Visual Reinforcement Learning](https://arxiv.org/pdf/1605.02097.pdf) <br>
@@ -119,6 +125,8 @@ is perhaps often aligned with the objective of seeking novelty.")  <br>
 ### Perception
 [Manipulation by Feel: Touch-Based Control with Deep Predictive Models](https://arxiv.org/pdf/1903.04128.pdf)(arxiv 2019, Berkeley, Haptic sensor)  <br>
 [Motion Perception in Reinforcement Learning with Dynamic Objects](https://lmb.informatik.uni-freiburg.de/projects/flowrl/)(arxiv 2019, image + flow rather than stacked images to include motion information) <br>
+[Making  Sense  of  Vision  and  Touch: Self-Supervised Learning of Multimodal Representations for Contact-Rich Tasks](https://arxiv.org/pdf/1810.10191.pdf)(ICRA 2019) <br>
+
 
 ### Others
 [Hacking Google reCAPTCHA v3 using Reinforcement Learning](https://arxiv.org/pdf/1903.01003.pdf)(arxiv 2019, Paword cracking) <br>
