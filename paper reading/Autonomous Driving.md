@@ -28,6 +28,9 @@
 [Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving](https://arxiv.org/pdf/1812.07179.pdf)(arxiv 2018, Cornell) <br>
 [LaserNet: An Efficient Probabilistic 3D Object Detector for Autonomous Driving](https://arxiv.org/pdf/1903.08701.pdf)(arxiv 2019) <br>
 
+### Prediction
+[DeepSignals: predicting intent of drivers through visual signals](https://arxiv.org/pdf/1905.01333.pdf)(ICRA 2019, Uber ATG) <br>
+
 ### Decision & Control
 [End to end learning for self-driving cars](https://github.com/marooncn/learning_note/blob/master/paper%20reading/notes/End%20to%20End%20Learning%20for%20Self-Driving%20Cars.pdf)([code](https://github.com/navoshta/behavioral-cloning)& [Zhihu](https://zhuanlan.zhihu.com/p/60625133), arxiv 2016, Nvidia) <br>
 [End-to-end driving via conditional imitation learning](https://github.com/marooncn/learning_note/blob/master/paper%20reading/notes/End-to-end%20Driving%20via%20Conditional%20Imitation%20Learning.pdf)(ICRA 2018, Intel) <br>
