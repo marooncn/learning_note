@@ -131,7 +131,8 @@ is perhaps often aligned with the objective of seeking novelty.")  <br>
 ### Others
 [Hacking Google reCAPTCHA v3 using Reinforcement Learning](https://arxiv.org/pdf/1903.01003.pdf)(arxiv 2019, Paword cracking) <br>
 
-### Good Blog & Tutorial
+### Blog 
+#### Application
 [Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/)(Policy Gradient) <br>
 [Using Keras and Deep Q-Network to Play FlappyBird](https://yanpanlau.github.io/2016/07/10/FlappyBird-Keras.html)(DQN) <br>
 [Build an AI to play Dino Run](https://blog.paperspace.com/dino-run/)(DQN) <br>
@@ -143,16 +144,17 @@ is perhaps often aligned with the objective of seeking novelty.")  <br>
 [Simple Reinforcement Learning with Tensorflow Part 8](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-8-asynchronous-actor-critic-agents-a3c-c88f72a5e9f2)(A3C) <br>
 [Reinforcement learning with the A3C algorithm](https://cgnicholls.github.io/reinforcement-learning/2017/03/27/a3c.html)(A3C) <br>
 [A3C Blog Post](https://github.com/tensorflow/models/tree/a2a943da2635bfe93cd0c17a1d186f1f3235126c/research/a3c_blogpost) <br>
-[Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html) <br>
-[李宏毅：Deep Reinforcement Learning](http://speech.ee.ntu.edu.tw/~tlkagk/courses/ML_2016/Lecture/RL%20(v6).pdf) <br>
-[CMU 10703:  Deep Reinforcement Learning and Control ](https://katefvision.github.io/) <br>
-[DeepMind - Deep Reinforcement Learning - RLSS 2017.pdf](https://drive.google.com/file/d/0BzUSSMdMszk6UE5TbWdZekFXSE0/view)<br>
-[OpenAI Spinning up](https://spinningup.openai.com/en/latest/)  <br>
 [AlphaGo Zero demystified](https://dylandjian.github.io/alphago-zero/) <br>
 [World Models applied to Sonic](https://dylandjian.github.io/world-models/) <br>
+#### Tutorial
+[Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html) <br>
+[OpenAI Spinning up](https://spinningup.openai.com/en/latest/)  <br>
+[李宏毅：Deep Reinforcement Learning](http://speech.ee.ntu.edu.tw/~tlkagk/courses/ML_2016/Lecture/RL%20(v6).pdf) <br>
+[CMU 10703:  Deep Reinforcement Learning and Control ](https://katefvision.github.io/) <br>
+#### Overview
+[DeepMind - Deep Reinforcement Learning - RLSS 2017.pdf](https://drive.google.com/file/d/0BzUSSMdMszk6UE5TbWdZekFXSE0/view)<br>
 [A (Long) Peek into Reinforcement Learning](https://lilianweng.github.io/lil-log/2018/02/19/a-long-peek-into-reinforcement-learning.html) <br>
-
-### Rethink
+#### Rethink
 [Deep reinforcement learning that matters](https://arxiv.org/pdf/1709.06560.pdf) <br>
 [Deep Reinforcement Learning Doesn't Work Yet](https://www.alexirpan.com/2018/02/14/rl-hard.html) <br>
 [Reinforcement Learning never worked, and 'deep' only helped a bit.](https://himanshusahni.github.io/2018/02/23/reinforcement-learning-never-worked.html) <br>
