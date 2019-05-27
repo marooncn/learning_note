@@ -145,12 +145,12 @@ is perhaps often aligned with the objective of seeking novelty.")  <br>
 [A3C Blog Post](https://github.com/tensorflow/models/tree/a2a943da2635bfe93cd0c17a1d186f1f3235126c/research/a3c_blogpost) <br>
 [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html) <br>
 [李宏毅：Deep Reinforcement Learning](http://speech.ee.ntu.edu.tw/~tlkagk/courses/ML_2016/Lecture/RL%20(v6).pdf) <br>
-[Lil'Log Reinforcement Learning Blog](https://lilianweng.github.io/lil-log/) <br>
 [CMU 10703:  Deep Reinforcement Learning and Control ](https://katefvision.github.io/) <br>
 [DeepMind - Deep Reinforcement Learning - RLSS 2017.pdf](https://drive.google.com/file/d/0BzUSSMdMszk6UE5TbWdZekFXSE0/view)<br>
 [OpenAI Spinning up](https://spinningup.openai.com/en/latest/)  <br>
 [AlphaGo Zero demystified](https://dylandjian.github.io/alphago-zero/) <br>
 [World Models applied to Sonic](https://dylandjian.github.io/world-models/) <br>
+[A (Long) Peek into Reinforcement Learning](https://lilianweng.github.io/lil-log/2018/02/19/a-long-peek-into-reinforcement-learning.html) <br>
 
 ### Rethink
 [Deep reinforcement learning that matters](https://arxiv.org/pdf/1709.06560.pdf) <br>
