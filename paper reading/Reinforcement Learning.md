@@ -16,6 +16,7 @@
 [Proximal Policy Optimization Algorithms](https://arxiv.org/pdf/1707.06347.pdf)(arxiv 2017, OpenAI PPO)<br>
 [Emergence of Locomotion Behaviours in Rich Environments](https://arxiv.org/pdf/1707.02286.pdf) (arxiv 2017, DeepMind PPO)<br>
 [Reinforcement learning with Deep Energy-Based Polices](https://arxiv.org/pdf/1702.08165.pdf)([blog](https://bair.berkeley.edu/blog/2017/10/06/soft-q-learning/), ICML 2017, Soft Q-learning) <br>
+[Mastering the game of Go without human knowledge](http://web.iitd.ac.in/~sumeet/Silver16.pdf)(AlphaGo zero, Nature 2017) <br>
 [Soft Actor-Critic Algorithms and Applications](https://arxiv.org/pdf/1812.05905.pdf)(arxiv 2018, Soft Actor-Critic) <br>
 [A Distributional Perspective on Reinforcement Learning](https://deepmind.com/blog/going-beyond-average-reinforcement-learning/)(ICML 2017, Distributional RL, C51) <br>
 [Meta-Learning Shared Hierarchies](https://arxiv.org/pdf/1710.09767.pdf)([blog](https://blog.openai.com/learning-a-hierarchy/), OpenAI 2017, Hierarchical RL) <br>
@@ -24,6 +25,7 @@
 [Neural scene representation and rendering](http://science.sciencemag.org/content/360/6394/1204/tab-pdf)([blog](https://deepmind.com/blog/neural-scene-representation-and-rendering/), Science 2018, Generative Query Network (GQN)) <br>
 [World Models](https://arxiv.org/pdf/1803.10122.pdf)([blog](https://dylandjian.github.io/world-models/), NIPS 2018, World Models=Vison model([VAE](http://kvfrans.com/variational-autoencoders-explained/))+Memory(RNN+[MDN](http://blog.otoro.net/2015/11/24/mixture-density-networks-with-tensorflow/))+Compact Controller(CMA-ES), the first known agent to solve OpenAi Gym Race Car) <br>
 [Reinforcement Learning for Improving Agent Design](https://designrl.github.io/)( Joint learning of policy and structure, Google 2018)<br>
+[A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Applications_files/alphazero-science.pdf)(AlphaZero, Science 2018) <br>
 [Learning Latent Dynamics for Planning from Pixels](https://planetrl.github.io/)(PlaNet, Google 2019) <br>
 
 
