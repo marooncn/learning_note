@@ -9,7 +9,7 @@
 [Dueling Network Architectures for Deep Reinforcement](https://arxiv.org/pdf/1511.06581.pdf)(ICML 2016, Dueling DQN)<br>
 [Mastering the game of Go with deep neural networks and tree search](http://www.cs.cmu.edu/afs/cs/academic/class/15780-s16/www/AlphaGo.nature16961.pdf)(Nature 2016, AlphaGo) <br>
 [Continuous control with deep reinforcement learning](https://arxiv.org/pdf/1509.02971.pdf)(ICLR 2016, DDPG)<br>
-[Continuous Deep Q-Learning with Model-based Acceleration](https://arxiv.org/pdf/1603.00748.pdf)([blog](https://blog.csdn.net/u013236946/article/details/73243310/) & [Zhihu](https://zhuanlan.zhihu.com/p/21609472), DeepMInd 2016, NAF)<br>
+[Continuous Deep Q-Learning with Model-based Acceleration](https://arxiv.org/pdf/1603.00748.pdf)([blog](https://blog.csdn.net/u013236946/article/details/73243310/) & [Zhihu](https://zhuanlan.zhihu.com/p/21609472), DeepMind 2016, NAF)<br>
 [Asynchronous Methods for Deep Reinforcement Learning ](https://arxiv.org/pdf/1602.01783.pdf)(ICML 2016, A3C)<br>
 [Reinforcement Learning thorugh Asynchronous Advantage Actor-Critic on a GPU](https://openreview.net/forum?id=r1VGvBcxl&noteId=r1VGvBcxl)(ICLR 2017, GA3C) <br>
 [Generative Adversial Imitation Learning](http://papers.nips.cc/paper/6391-generative-adversarial-imitation-learning)(NIPS 2016, GAIL) <br>
@@ -27,6 +27,7 @@
 [Reinforcement Learning for Improving Agent Design](https://designrl.github.io/)( Joint learning of policy and structure, Google 2018)<br>
 [A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Applications_files/alphazero-science.pdf)(AlphaZero, Science 2018) <br>
 [Learning Latent Dynamics for Planning from Pixels](https://planetrl.github.io/)(PlaNet, Google 2019) <br>
+[Human-level performance in 3D multiplayer games with population-based reinforcement learning](https://science.sciencemag.org/content/364/6443/859)(multiplayer FPS game, DeepMind, Science 2019) <br>
 
 
 ### Meta-Learning
