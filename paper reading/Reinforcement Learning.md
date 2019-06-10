@@ -76,6 +76,7 @@ is perhaps often aligned with the objective of seeking novelty.")  <br>
 [Unity](https://unity3d.com/machine-learning/) <br>
 [pybullet](https://pypi.org/project/pybullet/) 
 [Pommerman](https://www.pommerman.com/)(Multi-Agent "Bomberman"-like game) <br>
+[football](https://github.com/google-research/football)(Google 2019) <br>
 
 ### Implementations
 [OpenAI Baselines](https://github.com/openai/baselines)(OpenAI) <br>
