@@ -44,6 +44,9 @@
 [Safe Reinforcement Learning on Autonomous Vehicles](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8593420)(IROS 2018, use prediction model to add masking mechanism to DRL action output to prevent dangerous action.) <br>
 [variational end-to-end navigation and localization](https://arxiv.org/pdf/1811.10119.pdf)(ICRA 2019, Proposed Variational end-to-end model learns from raw sensory data as well as coarse grained topology maps to navigate and localize within complex environments.) <br>
 
+### Detection
+[Detects Chinese traffic police commanding poses](https://github.com/zc402/ChineseTrafficPolicePose)  <br>
+
 ### Evalution
 [On Offline Evaluation of Vision-based Driving Models](https://arxiv.org/pdf/1809.04843.pdf)(arxiv 2018) <br>
 [Exploring the Limitations of Behavior Cloning for Autonomous Driving](https://arxiv.org/pdf/1904.08980.pdf)(arxiv 2019) <br>
