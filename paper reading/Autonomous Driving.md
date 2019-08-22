@@ -53,3 +53,7 @@
 
 ### Transport
 [Flow: Architecture and Benchmarking for Reinforcement Learning in Traffic Control](https://arxiv.org/pdf/1710.05465.pdf)([blog](https://flow-project.github.io/), CoRL 2018, UC Berkerly) <br>
+
+### Autonomous Drifting
+[Autonomous Drifting using Reinforcement Learning](https://github.com/kanakkabara/Autonomous-Drifting) <br>
+[Autonomous Drifting using Simulation-Aided Reinforcement Learning](https://weeklyrobotics.com/publications/autonomous_drifting/Cutler16_ICRA_final_submission.pdf) <br>
