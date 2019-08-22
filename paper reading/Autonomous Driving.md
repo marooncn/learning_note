@@ -57,3 +57,6 @@
 ### Autonomous Drifting
 [Autonomous Drifting using Reinforcement Learning](https://github.com/kanakkabara/Autonomous-Drifting) <br>
 [Autonomous Drifting using Simulation-Aided Reinforcement Learning](https://weeklyrobotics.com/publications/autonomous_drifting/Cutler16_ICRA_final_submission.pdf) <br>
+
+### Localization
+[HF-Net: Robust Hierarchical Localization at Large Scale](https://github.com/ethz-asl/hfnet)([NetVLAD](http://www.liuxiao.org/2019/02/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0%EF%BC%9Anetvlad-cnn-architecture-for-weakly-supervised-place-recognition/), [SuperPoint](https://blog.csdn.net/honyniu/article/details/87483613)) <br>
