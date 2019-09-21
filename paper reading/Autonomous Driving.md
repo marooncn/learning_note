@@ -54,6 +54,9 @@
 ### Transport
 [Flow: Architecture and Benchmarking for Reinforcement Learning in Traffic Control](https://arxiv.org/pdf/1710.05465.pdf)([blog](https://flow-project.github.io/), CoRL 2018, UC Berkerly) <br>
 
+### Obstacle Aviodance
+[Motion Planning Among Dynamic, Decision-Making Agents with Deep Reinforcement Learning](https://arxiv.org/pdf/1805.01956.pdf)([code](https://github.com/mfe7/cadrl_ros), IROS 2018, MIT) <br>
+
 ### Autonomous Drifting
 [Autonomous Drifting using Reinforcement Learning](https://github.com/kanakkabara/Autonomous-Drifting) <br>
 [Autonomous Drifting using Simulation-Aided Reinforcement Learning](https://weeklyrobotics.com/publications/autonomous_drifting/Cutler16_ICRA_final_submission.pdf) <br>
