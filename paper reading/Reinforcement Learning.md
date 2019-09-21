@@ -122,6 +122,7 @@ is perhaps often aligned with the objective of seeking novelty.")  <br>
 [Neural Adaptive Video Streaming with Pensieve](http://web.mit.edu/pensieve/)(ACM 2017) <br>
 
 ### Legged locomotion
+[Feedback Control For Cassie With Deep Reinforcement Learning](https://arxiv.org/pdf/1803.05580.pdf)(IROS 2018) <br>
 [Learning agile and dynamic motor skills for legged robots](https://arxiv.org/pdf/1901.08652.pdf)(Science Robotics 2019, ETH. train >2000 ANYmals in real time in simulation platform together; train a NN representing the complex dynamics with data from the real robot, so the trained policy can be directly deployed on the real system without any modification) <br>
 [Iterative Reinforcement Learning Based Design of Dynamic Locomotion Skills for Cassie](https://arxiv.org/pdf/1903.09537.pdf)(arxiv 2019) <br>
 [learning to adapt in dynamic, real-world environments through meta-reinforcement learning](https://arxiv.org/pdf/1803.11347.pdf)(ICLR 2019, Berkeley, use meta-learning to train a dynamics model prior such that, when combined with recent data, this prior can be rapidly adapted to the local context) <br>
