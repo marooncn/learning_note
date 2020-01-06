@@ -135,7 +135,7 @@ is perhaps often aligned with the objective of seeking novelty.")  <br>
 
 
 ### Others
-[Hacking Google reCAPTCHA v3 using Reinforcement Learning](https://arxiv.org/pdf/1903.01003.pdf)(arxiv 2019, Paword cracking) <br>
+[Hacking Google reCAPTCHA v3 using Reinforcement Learning](https://arxiv.org/pdf/1903.01003.pdf)(arxiv 2019, Password cracking) <br>
 
 ### Blog 
 #### Application
