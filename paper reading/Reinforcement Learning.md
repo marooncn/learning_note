@@ -58,7 +58,8 @@ is perhaps often aligned with the objective of seeking novelty.")  <br>
 
 ### Reality Gap 
 [Sim-to-Real: Learning Agile Locomotion For Quadruped Robots](https://arxiv.org/pdf/1804.10332.pdf)(arxiv 2018, Google, "We  narrow  this  reality  gap  by  improving  the  physics simulator and learning robust policies.") <br>
-[Sim-to-Real Transfer of Robotic Control with Dynamics Randomization](https://xbpeng.github.io/projects/SimToReal/2018_SimToReal.pdf)(ICRA 2018, "By randomizing the dynamics of the simulator during training, we are able to develop policies that are capable of adapting to very different dynamics") <br>
+[Sim-to-Real Transfer of Robotic Control with Dynamics Randomization](https://xbpeng.github.io/projects/SimToReal/2018_SimToReal.pdf)(ICRA 2018, "By randomizing the dynamics of the simulator during training, we are able to develop policies that are capable of adapting to very different dynamics".) <br>
+[Solving Rubik’s Cube with a Robot Hand](https://openai.com/blog/solving-rubiks-cube/)(OpenAI 2019, "we developed a new method called Automatic Domain Randomization (ADR), which endlessly generates progressively more difficult environments in simulation. This frees us from having an accurate model of the real world, and enables the transfer of neural networks learned in simulation to be applied to the real world.") <br>
 [Closing the Sim-to-Real Loop: Adapting Simulation Randomization with Real World Experience](https://arxiv.org/pdf/1810.05687.pdf)(ICRA 2019, "Rather than manually tuning the randomization of simulations, we adapt the simulation parameter distribution using a few real world roll-outs interleaved with policy training") <br>
 
 ### Other issue
