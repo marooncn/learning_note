@@ -27,7 +27,6 @@
 [Reinforcement Learning for Improving Agent Design](https://designrl.github.io/)( Joint learning of policy and structure, Google 2018)<br>
 [A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Applications_files/alphazero-science.pdf)(AlphaZero, Science 2018) <br>
 [Learning Latent Dynamics for Planning from Pixels](https://planetrl.github.io/)(PlaNet, Google 2019) <br>
-[Human-level performance in 3D multiplayer games with population-based reinforcement learning](https://science.sciencemag.org/content/364/6443/859)(multiplayer FPS game, DeepMind, Science 2019) <br>
 [Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model](https://arxiv.org/pdf/1911.08265.pdf)(MuZero, DeepMind 2019) <br>
 
 ### Meta-Learning
@@ -62,6 +61,9 @@ is perhaps often aligned with the objective of seeking novelty.")  <br>
 [Solving Rubik’s Cube with a Robot Hand](https://openai.com/blog/solving-rubiks-cube/)(OpenAI 2019, "we developed a new method called Automatic Domain Randomization (ADR), which endlessly generates progressively more difficult environments in simulation. This frees us from having an accurate model of the real world, and enables the transfer of neural networks learned in simulation to be applied to the real world.") <br>
 [Closing the Sim-to-Real Loop: Adapting Simulation Randomization with Real World Experience](https://arxiv.org/pdf/1810.05687.pdf)(ICRA 2019, "Rather than manually tuning the randomization of simulations, we adapt the simulation parameter distribution using a few real world roll-outs interleaved with policy training") <br>
 
+### Multi-Agent
+[Human-level performance in 3D multiplayer games with population-based reinforcement learning](https://deepmind.com/blog/article/capture-the-flag-science)(multiplayer FPS game, DeepMind, Science 2019) <br>
+
 ### Other issue
 #### Discrete-Continuous Hybrid Action Spaces
 [Deep Multi-Agent Reinforcement Learning with Discrete-Continuous Hybrid Action Spaces](https://arxiv.org/pdf/1903.04959.pdf)(IJCAI 2019) <br>
@@ -78,6 +80,7 @@ is perhaps often aligned with the objective of seeking novelty.")  <br>
 [pybullet](https://pypi.org/project/pybullet/) 
 [Pommerman](https://www.pommerman.com/)(Multi-Agent "Bomberman"-like game) <br>
 [football](https://github.com/google-research/football)(Google 2019) <br>
+[ROBEL](www.roboticsbenchmarks.org)(Google 2019, ROBEL is an open-source platform of cost-effective robots designedfor reinforcement learning in the real world)  <br>
 
 ### Implementations
 [OpenAI Baselines](https://github.com/openai/baselines)(OpenAI) <br>
