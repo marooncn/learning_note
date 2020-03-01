@@ -51,8 +51,6 @@
 [On Offline Evaluation of Vision-based Driving Models](https://arxiv.org/pdf/1809.04843.pdf)(arxiv 2018) <br>
 [Exploring the Limitations of Behavior Cloning for Autonomous Driving](https://arxiv.org/pdf/1904.08980.pdf)(arxiv 2019) <br>
 
-### Transport
-[Flow: Architecture and Benchmarking for Reinforcement Learning in Traffic Control](https://arxiv.org/pdf/1710.05465.pdf)([blog](https://flow-project.github.io/), CoRL 2018, UC Berkerly) <br>
 
 ### Obstacle Aviodance
 [Motion Planning Among Dynamic, Decision-Making Agents with Deep Reinforcement Learning](https://arxiv.org/pdf/1805.01956.pdf)([code](https://github.com/mfe7/cadrl_ros), IROS 2018, MIT) <br>
